@@ -21,36 +21,30 @@ jobs:
       - name: Generate
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        shell: python
+        shell: bash
         run: |
-          import json, os, time, urllib.request, urllib.error
+          pip install -q "huggingface_hub>=0.34" pillow
+          python - <<'PY'
+          import json, os, time
+          from huggingface_hub import InferenceClient
           job = json.load(open('imagegen_req/job.json'))
           out = f"/tmp/out/images/{job['job']}"; os.makedirs(out, exist_ok=True)
           model = job.get('model', 'black-forest-labs/FLUX.1-schnell')
-          urls = [f'https://router.huggingface.co/hf-inference/models/{model}', f'https://api-inference.huggingface.co/models/{model}']
+          providers = job.get('providers', ['auto', 'fal-ai', 'together', 'nebius', 'replicate'])
           log = []
           for im in job['images']:
-              body = {'inputs': im['prompt'], 'parameters': {'width': job.get('width', 768), 'height': job.get('height', 1344),
-                      'num_inference_steps': job.get('steps', 4), 'seed': im.get('seed', 0)}}
               ok = False
-              for attempt in range(4):
-                  for u in urls:
-                      try:
-                          r = urllib.request.Request(u, data=json.dumps(body).encode(), headers={
-                              'Authorization': 'Bearer ' + os.environ['HF_TOKEN'], 'Content-Type': 'application/json', 'Accept': 'image/png'})
-                          data = urllib.request.urlopen(r, timeout=180).read()
-                          if data[:4] in (b'\x89PNG', b'\xff\xd8\xff\xe0', b'\xff\xd8\xff\xe1', b'\xff\xd8\xff\xdb') or data[:3] == b'\xff\xd8\xff':
-                              ext = 'png' if data[:4] == b'\x89PNG' else 'jpg'
-                              open(f"{out}/{im['id']}.{ext}", 'wb').write(data); ok = True; break
-                          log.append(f"{im['id']} {u}: non-image {data[:200]!r}")
-                      except urllib.error.HTTPError as e:
-                          log.append(f"{im['id']} {u}: HTTP {e.code} {e.read()[:300]!r}")
-                      except Exception as e:
-                          log.append(f"{im['id']} {u}: {e!r}")
-                  if ok: break
-                  time.sleep(15)
-              log.append(f"{im['id']}: {'ok' if ok else 'FAILED'}")
+              for prov in providers:
+                  try:
+                      c = InferenceClient(provider=prov, api_key=os.environ['HF_TOKEN'])
+                      img = c.text_to_image(im['prompt'], model=model, width=job.get('width', 768), height=job.get('height', 1344),
+                                            num_inference_steps=job.get('steps', 4), seed=im.get('seed'))
+                      img.save(f"{out}/{im['id']}.png"); ok = True; log.append(f"{im['id']}: ok via {prov}"); break
+                  except Exception as e:
+                      log.append(f"{im['id']} {prov}: {str(e)[:300]}")
+              if not ok: log.append(f"{im['id']}: FAILED")
           open(f'{out}/log.txt', 'w').write('\n'.join(log) + '\n'); print('\n'.join(log))
+          PY
       - name: Commit to the images branch
         run: |
           git config user.name images-bot; git config user.email images-bot@users.noreply.github.com
