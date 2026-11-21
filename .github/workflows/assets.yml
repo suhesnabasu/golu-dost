@@ -1,0 +1,74 @@
+name: Fetch free Lottie assets
+
+# Searches the LottieFiles public library (free animations = Lottie Simple License, commercial use allowed)
+# for every query in assets_req/lottie_queries.json, downloads the Lottie JSON + a preview image,
+# and commits them to the "assets" branch under lottie/<job>/ with a manifest (author, page URL, licence).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['assets_req/**']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Search and download
+        shell: python
+        run: |
+          import json, os, re, urllib.request
+          req = json.load(open('assets_req/lottie_queries.json'))
+          job = req['job']; out = f'/tmp/out/lottie/{job}'; os.makedirs(out, exist_ok=True)
+          EP = 'https://graphql.lottiefiles.com/2022-08'
+          def gql(q, v):
+              r = urllib.request.Request(EP, data=json.dumps({'query': q, 'variables': v}).encode(),
+                                         headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'})
+              return json.load(urllib.request.urlopen(r, timeout=60))
+          Q = '''query($q:String!,$n:Int){ searchPublicAnimations(query:$q, first:$n){ edges{ node{
+                  id name url jsonUrl lottieUrl gifUrl imageUrl bgColor createdBy{ username firstName lastName } } } } }'''
+          manifest, log = [], []
+          for q in req['queries']:
+              try:
+                  d = gql(Q, {'q': q, 'n': req.get('per_query', 8)})
+              except Exception as e:
+                  log.append(f'{q}: ERROR {e!r}'); continue
+              if 'errors' in d:
+                  log.append(f'{q}: {json.dumps(d["errors"])[:800]}')
+                  if 'Cannot query field' in json.dumps(d['errors']):
+                      s = gql('{ __type(name:"PublicAnimation"){ fields{ name } } }', {})
+                      log.append('PublicAnimation fields: ' + json.dumps(s)[:1500])
+                  continue
+              for e in d['data']['searchPublicAnimations']['edges']:
+                  n = e['node']; slug = re.sub(r'[^a-z0-9]+', '-', (n['name'] or 'anim').lower())[:40] + f"-{n['id']}"
+                  item = {'query': q, 'id': n['id'], 'name': n['name'], 'page': n.get('url'), 'author': n.get('createdBy'),
+                          'licence': 'Lottie Simple License (free, commercial use allowed)', 'file': None, 'preview': None}
+                  for key, ext in (('jsonUrl', 'json'),):
+                      if n.get(key):
+                          try:
+                              open(f'{out}/{slug}.{ext}', 'wb').write(urllib.request.urlopen(urllib.request.Request(n[key], headers={'User-Agent': 'Mozilla/5.0'}), timeout=60).read())
+                              item['file'] = f'{slug}.{ext}'
+                          except Exception as ex: log.append(f'{slug} json: {ex!r}')
+                  for key in ('imageUrl', 'gifUrl'):
+                      if n.get(key) and not item['preview']:
+                          try:
+                              ext = 'gif' if key == 'gifUrl' else n[key].split('?')[0].rsplit('.', 1)[-1][:4]
+                              open(f'{out}/{slug}.preview.{ext}', 'wb').write(urllib.request.urlopen(urllib.request.Request(n[key], headers={'User-Agent': 'Mozilla/5.0'}), timeout=60).read())
+                              item['preview'] = f'{slug}.preview.{ext}'
+                          except Exception as ex: log.append(f'{slug} preview: {ex!r}')
+                  manifest.append(item)
+              log.append(f'{q}: {len(d["data"]["searchPublicAnimations"]["edges"])} results')
+          json.dump(manifest, open(f'{out}/manifest.json', 'w'), indent=1)
+          open(f'{out}/log.txt', 'w').write('\n'.join(log) + '\n')
+          print('\n'.join(log))
+      - name: Commit to the assets branch
+        run: |
+          git config user.name assets-bot; git config user.email assets-bot@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin assets >/dev/null; then git switch -f assets; else git switch --orphan assets; fi
+          mkdir -p lottie && cp -r /tmp/out/lottie/* lottie/
+          git add lottie && git commit -m "Lottie assets $(ls /tmp/out/lottie)" && git push origin assets
