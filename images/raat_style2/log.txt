@@ -1,0 +1,48 @@
+arjun_phone_a auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b019250-2e00b0d815ebbb4c2393e050;a2c9ea4a-fb86-4c4b-a93d-39f413646160)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Purchase pre-pa
+arjun_phone_a fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b019250-0ff1b16e4c9801d81b6da689;7e2d8318-d9a8-4b8f-bec8-ad070150e744)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Purchase pre-pa
+arjun_phone_a together: Model black-forest-labs/FLUX.1-schnell is not supported by provider together.
+arjun_phone_a nebius: Provider 'nebius' not supported. Available values: 'auto' or any provider from ['baseten', 'cerebras', 'cohere', 'deepinfra', 'fal-ai', 'featherless-ai', 'fireworks-ai', 'groq', 'hf-inference', 'novita', 'nscale', 'openai', 'ovhcloud', 'publicai', 'replicate', 'scaleway', 'together', 'wavespeed', 'z
+arjun_phone_a replicate: Model black-forest-labs/FLUX.1-schnell is not supported by provider replicate.
+arjun_phone_a: FAILED
+arjun_phone_b auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b019250-0a04126214755fb36843a45d;be101c5a-8035-44bb-83ba-bca45619e6e0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Purchase pre-pa
+arjun_phone_b fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b019250-68d360860c632dba52181015;2236e9b4-6abd-4662-b389-45b544cfe480)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Purchase pre-pa
+arjun_phone_b together: Model black-forest-labs/FLUX.1-schnell is not supported by provider together.
+arjun_phone_b nebius: Provider 'nebius' not supported. Available values: 'auto' or any provider from ['baseten', 'cerebras', 'cohere', 'deepinfra', 'fal-ai', 'featherless-ai', 'fireworks-ai', 'groq', 'hf-inference', 'novita', 'nscale', 'openai', 'ovhcloud', 'publicai', 'replicate', 'scaleway', 'together', 'wavespeed', 'z
+arjun_phone_b replicate: Model black-forest-labs/FLUX.1-schnell is not supported by provider replicate.
+arjun_phone_b: FAILED
+door_feet auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b019250-70736e38282c905e2e54653c;9129e650-713e-4625-8897-807c008bdb38)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Purchase pre-pa
+door_feet fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b019250-1cb6294b07f65b0d16244aa5;ce7e8085-799a-4c02-ba2d-16bd491bd432)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Purchase pre-pa
+door_feet together: Model black-forest-labs/FLUX.1-schnell is not supported by provider together.
+door_feet nebius: Provider 'nebius' not supported. Available values: 'auto' or any provider from ['baseten', 'cerebras', 'cohere', 'deepinfra', 'fal-ai', 'featherless-ai', 'fireworks-ai', 'groq', 'hf-inference', 'novita', 'nscale', 'openai', 'ovhcloud', 'publicai', 'replicate', 'scaleway', 'together', 'wavespeed', 'z
+door_feet replicate: Model black-forest-labs/FLUX.1-schnell is not supported by provider replicate.
+door_feet: FAILED
+maa_photo auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b019250-6c3129d42f9de28d40e36179;48c9f36d-9492-4940-a9c5-b4a52969ea8d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Purchase pre-pa
+maa_photo fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b019251-2e58858601b52f1e199e2064;254d2bfc-9000-45ba-ba52-a18727c84ae2)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Purchase pre-pa
+maa_photo together: Model black-forest-labs/FLUX.1-schnell is not supported by provider together.
+maa_photo nebius: Provider 'nebius' not supported. Available values: 'auto' or any provider from ['baseten', 'cerebras', 'cohere', 'deepinfra', 'fal-ai', 'featherless-ai', 'fireworks-ai', 'groq', 'hf-inference', 'novita', 'nscale', 'openai', 'ovhcloud', 'publicai', 'replicate', 'scaleway', 'together', 'wavespeed', 'z
+maa_photo replicate: Model black-forest-labs/FLUX.1-schnell is not supported by provider replicate.
+maa_photo: FAILED
