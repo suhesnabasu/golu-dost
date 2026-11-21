@@ -1,0 +1,36 @@
+arjun_phone_a https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+arjun_phone_a https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+arjun_phone_a https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+arjun_phone_a https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+arjun_phone_a https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+arjun_phone_a https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+arjun_phone_a https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+arjun_phone_a https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+arjun_phone_a: FAILED
+arjun_phone_b https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+arjun_phone_b https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+arjun_phone_b https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+arjun_phone_b https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+arjun_phone_b https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+arjun_phone_b https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+arjun_phone_b https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+arjun_phone_b https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+arjun_phone_b: FAILED
+door_feet https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+door_feet https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+door_feet https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+door_feet https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+door_feet https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+door_feet https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+door_feet https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+door_feet https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+door_feet: FAILED
+maa_photo https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+maa_photo https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+maa_photo https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+maa_photo https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+maa_photo https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+maa_photo https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+maa_photo https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell: HTTP 410 b'{"error":"The requested model is deprecated and no longer supported by provider hf-inference"}'
+maa_photo https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell: URLError(gaierror(-5, 'No address associated with hostname'))
+maa_photo: FAILED
