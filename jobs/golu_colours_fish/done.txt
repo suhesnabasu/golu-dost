@@ -1,0 +1,17 @@
+FAIL s0: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+FAIL s0e: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+FAIL r: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+ok re_a
+FAIL re_b: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+FAIL y: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+ok ye_a
+FAIL ye_b: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+FAIL b: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+ok be_a
+FAIL be_b: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+FAIL g: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+ok ge_a
+FAIL ge_b: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+FAIL end: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
+ok ende_a
+FAIL ende_b: HTTPError('400 Client Error: Bad Request for url: https://api.fish.audio/v1/tts')
