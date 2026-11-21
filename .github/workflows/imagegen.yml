@@ -1,0 +1,59 @@
+name: Generate images (FLUX.1-schnell, Apache-2.0)
+
+# Reads imagegen_req/job.json and generates each image with the Hugging Face Inference API
+# (secret HF_TOKEN). Results go to the "images" branch under images/<job>/.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['imagegen_req/**']
+
+permissions:
+  contents: write
+
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Generate
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        shell: python
+        run: |
+          import json, os, time, urllib.request, urllib.error
+          job = json.load(open('imagegen_req/job.json'))
+          out = f"/tmp/out/images/{job['job']}"; os.makedirs(out, exist_ok=True)
+          model = job.get('model', 'black-forest-labs/FLUX.1-schnell')
+          urls = [f'https://router.huggingface.co/hf-inference/models/{model}', f'https://api-inference.huggingface.co/models/{model}']
+          log = []
+          for im in job['images']:
+              body = {'inputs': im['prompt'], 'parameters': {'width': job.get('width', 768), 'height': job.get('height', 1344),
+                      'num_inference_steps': job.get('steps', 4), 'seed': im.get('seed', 0)}}
+              ok = False
+              for attempt in range(4):
+                  for u in urls:
+                      try:
+                          r = urllib.request.Request(u, data=json.dumps(body).encode(), headers={
+                              'Authorization': 'Bearer ' + os.environ['HF_TOKEN'], 'Content-Type': 'application/json', 'Accept': 'image/png'})
+                          data = urllib.request.urlopen(r, timeout=180).read()
+                          if data[:4] in (b'\x89PNG', b'\xff\xd8\xff\xe0', b'\xff\xd8\xff\xe1', b'\xff\xd8\xff\xdb') or data[:3] == b'\xff\xd8\xff':
+                              ext = 'png' if data[:4] == b'\x89PNG' else 'jpg'
+                              open(f"{out}/{im['id']}.{ext}", 'wb').write(data); ok = True; break
+                          log.append(f"{im['id']} {u}: non-image {data[:200]!r}")
+                      except urllib.error.HTTPError as e:
+                          log.append(f"{im['id']} {u}: HTTP {e.code} {e.read()[:300]!r}")
+                      except Exception as e:
+                          log.append(f"{im['id']} {u}: {e!r}")
+                  if ok: break
+                  time.sleep(15)
+              log.append(f"{im['id']}: {'ok' if ok else 'FAILED'}")
+          open(f'{out}/log.txt', 'w').write('\n'.join(log) + '\n'); print('\n'.join(log))
+      - name: Commit to the images branch
+        run: |
+          git config user.name images-bot; git config user.email images-bot@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin images >/dev/null; then git switch -f images; else git switch --orphan images; fi
+          mkdir -p images && cp -r /tmp/out/images/* images/
+          git add images && git commit -m "Images $(ls /tmp/out/images)" && git push origin images
