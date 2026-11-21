@@ -1,0 +1,12 @@
+ok s0
+ok s0e
+ok r
+ok re_b
+ok y
+ok ye_b
+ok b
+ok be_b
+ok g
+ok ge_b
+ok end
+ok ende_b
