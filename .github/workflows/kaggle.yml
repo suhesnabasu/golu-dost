@@ -1,0 +1,52 @@
+name: Kaggle GPU job
+# Pushes kaggle/<script>.py as a private GPU kernel on the owner's Kaggle account (secrets KAGGLE_USERNAME, KAGGLE_KEY),
+# waits for it, downloads /kaggle/working and commits it to branch "gpu" under gpu/<slug>/.
+on:
+  workflow_dispatch:
+    inputs:
+      script: { description: "script in kaggle/ (without .py)", required: true, default: "gputest" }
+  push:
+    branches: [main]
+    paths: ['kaggle/**']
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Push kernel
+        id: push
+        run: |
+          pip install -q kaggle
+          S="${{ github.event.inputs.script }}"; [ -z "$S" ] && S=$(git diff --name-only HEAD~1 HEAD -- kaggle | head -1 | xargs -r basename | sed 's/\.py$//'); [ -z "$S" ] && S=gputest
+          SLUG="golu-gpu-$(echo $S | tr '_' '-')"
+          mkdir -p /tmp/k && cp kaggle/$S.py /tmp/k/run.py
+          python - <<PY
+          import json, os
+          json.dump({"id": os.environ["KAGGLE_USERNAME"] + "/$SLUG", "title": "$SLUG", "code_file": "run.py", "language": "python",
+                     "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
+                     "dataset_sources": [], "competition_sources": [], "kernel_sources": []}, open("/tmp/k/kernel-metadata.json", "w"))
+          PY
+          kaggle kernels push -p /tmp/k
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+      - name: Wait
+        run: |
+          for i in $(seq 1 280); do
+            st=$(kaggle kernels status "$KAGGLE_USERNAME/${{ steps.push.outputs.slug }}" 2>&1 || true); echo "$(date +%T) $st"
+            echo "$st" | grep -qiE 'complete|error|cancel' && break; sleep 60
+          done
+      - name: Collect
+        if: always()
+        run: |
+          mkdir -p /tmp/o && kaggle kernels output "$KAGGLE_USERNAME/${{ steps.push.outputs.slug }}" -p /tmp/o || true
+          ls -la /tmp/o; tail -50 /tmp/o/log.txt 2>/dev/null || true
+          git config user.name gpu-bot; git config user.email gpu-bot@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin gpu >/dev/null; then git switch -f gpu; else git switch --orphan gpu; fi
+          mkdir -p gpu/${{ steps.push.outputs.slug }} && cp -r /tmp/o/* gpu/${{ steps.push.outputs.slug }}/ 2>/dev/null || true
+          git add gpu && git commit -m "GPU output ${{ steps.push.outputs.slug }}" && git push origin gpu || true
