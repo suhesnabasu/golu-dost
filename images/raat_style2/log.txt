@@ -1,11 +1,14 @@
+arjun_phone_a pollinations try 0: HTTP Error 503: Service Unavailable
+arjun_phone_a pollinations try 1: HTTP Error 402: Payment Required
+arjun_phone_a pollinations try 2: HTTP Error 402: Payment Required
 arjun_phone_a gemini/gemini-2.5-flash-image: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Q
 arjun_phone_a gemini/gemini-2.5-flash-image-preview: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
 arjun_phone_a gemini/imagen-4.0-generate-001: This method is only supported in Gemini Enterprise Agent Platform mode, not in Gemini Developer API mode.
-arjun_phone_a auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028cd1-1d2b269036e2983a47e12a2d;082f051e-f6ed-4eee-ae3a-8b539d0671f8)
+arjun_phone_a auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028d6c-6f1f66f66fcd407e0d7a2bcc;386da6f2-9877-439e-9b05-b0590b3a33af)
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
 
 Purchase pre-pa
-arjun_phone_a fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028cd1-5874d576171ca18031304eb4;60f3414f-65cf-4a66-aa42-0f318bab9935)
+arjun_phone_a fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028d6c-664f473b30e05a3e00d1821e;5024f807-8a0a-4853-9a4a-ccb223e679ee)
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
 
 Purchase pre-pa
@@ -13,29 +16,18 @@ arjun_phone_a together: Model black-forest-labs/FLUX.1-schnell is not supported 
 arjun_phone_a nebius: Provider 'nebius' not supported. Available values: 'auto' or any provider from ['baseten', 'cerebras', 'cohere', 'deepinfra', 'fal-ai', 'featherless-ai', 'fireworks-ai', 'groq', 'hf-inference', 'novita', 'nscale', 'openai', 'ovhcloud', 'publicai', 'replicate', 'scaleway', 'together', 'wavespeed', 'z
 arjun_phone_a replicate: Model black-forest-labs/FLUX.1-schnell is not supported by provider replicate.
 arjun_phone_a: FAILED
-arjun_phone_b gemini/gemini-2.5-flash-image: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Q
-arjun_phone_b gemini/gemini-2.5-flash-image-preview: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
-arjun_phone_b gemini/imagen-4.0-generate-001: This method is only supported in Gemini Enterprise Agent Platform mode, not in Gemini Developer API mode.
-arjun_phone_b auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028cd1-5c6ecd2b57ce25b151bfe956;5ea9ee3e-ca20-4b9b-90df-9da467eee83a)
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
-
-Purchase pre-pa
-arjun_phone_b fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028cd1-7282d67618c37c8135297462;dd4c36ab-6d3f-49e5-a604-412ad394dfc9)
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
-
-Purchase pre-pa
-arjun_phone_b together: Model black-forest-labs/FLUX.1-schnell is not supported by provider together.
-arjun_phone_b nebius: Provider 'nebius' not supported. Available values: 'auto' or any provider from ['baseten', 'cerebras', 'cohere', 'deepinfra', 'fal-ai', 'featherless-ai', 'fireworks-ai', 'groq', 'hf-inference', 'novita', 'nscale', 'openai', 'ovhcloud', 'publicai', 'replicate', 'scaleway', 'together', 'wavespeed', 'z
-arjun_phone_b replicate: Model black-forest-labs/FLUX.1-schnell is not supported by provider replicate.
-arjun_phone_b: FAILED
+arjun_phone_b: ok via pollinations/flux
+door_feet pollinations try 0: HTTP Error 402: Payment Required
+door_feet pollinations try 1: HTTP Error 402: Payment Required
+door_feet pollinations try 2: HTTP Error 402: Payment Required
 door_feet gemini/gemini-2.5-flash-image: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Q
 door_feet gemini/gemini-2.5-flash-image-preview: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
 door_feet gemini/imagen-4.0-generate-001: This method is only supported in Gemini Enterprise Agent Platform mode, not in Gemini Developer API mode.
-door_feet auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028cd2-53102ce5461a2c8b525071f8;7e07ec3e-850e-4aee-a85b-5cf7e258d429)
+door_feet auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028dad-736f24ee7f5b358b31f81e5b;18c1e96d-a543-4f49-86eb-a06e0bb04147)
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
 
 Purchase pre-pa
-door_feet fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028cd2-3ea3493f459b9d535f6b612f;9ec6f3e7-2269-420d-b595-a81381d8493a)
+door_feet fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028dad-4ac2528b242d22505b60b88d;4b927f85-a2d8-4ef5-8f3e-7cf95a461f90)
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
 
 Purchase pre-pa
@@ -43,18 +35,4 @@ door_feet together: Model black-forest-labs/FLUX.1-schnell is not supported by p
 door_feet nebius: Provider 'nebius' not supported. Available values: 'auto' or any provider from ['baseten', 'cerebras', 'cohere', 'deepinfra', 'fal-ai', 'featherless-ai', 'fireworks-ai', 'groq', 'hf-inference', 'novita', 'nscale', 'openai', 'ovhcloud', 'publicai', 'replicate', 'scaleway', 'together', 'wavespeed', 'z
 door_feet replicate: Model black-forest-labs/FLUX.1-schnell is not supported by provider replicate.
 door_feet: FAILED
-maa_photo gemini/gemini-2.5-flash-image: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Q
-maa_photo gemini/gemini-2.5-flash-image-preview: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-image-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
-maa_photo gemini/imagen-4.0-generate-001: This method is only supported in Gemini Enterprise Agent Platform mode, not in Gemini Developer API mode.
-maa_photo auto: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028cd2-154385c56dadfa043f242693;e80ad739-366e-4b67-bb6f-4012ad1736d2)
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
-
-Purchase pre-pa
-maa_photo fal-ai: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/schnell' (Request ID: Root=1-6b028cd2-6a05eed273b817416e226647;c4a0177d-6cc7-402b-8aca-3c5ffa847f89)
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
-
-Purchase pre-pa
-maa_photo together: Model black-forest-labs/FLUX.1-schnell is not supported by provider together.
-maa_photo nebius: Provider 'nebius' not supported. Available values: 'auto' or any provider from ['baseten', 'cerebras', 'cohere', 'deepinfra', 'fal-ai', 'featherless-ai', 'fireworks-ai', 'groq', 'hf-inference', 'novita', 'nscale', 'openai', 'ovhcloud', 'publicai', 'replicate', 'scaleway', 'together', 'wavespeed', 'z
-maa_photo replicate: Model black-forest-labs/FLUX.1-schnell is not supported by provider replicate.
-maa_photo: FAILED
+maa_photo: ok via pollinations/flux
