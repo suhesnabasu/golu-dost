@@ -24,7 +24,7 @@ jobs:
         id: push
         run: |
           pip install -q kaggle
-          S="${{ github.event.inputs.script }}"; [ -z "$S" ] && S=$(git diff --name-only HEAD~1 HEAD -- kaggle | head -1 | xargs -r basename | sed 's/\.py$//'); [ -z "$S" ] && S=gputest
+          S="${{ github.event.inputs.script }}"; [ -z "$S" ] && S=$(git diff --name-only HEAD~1 HEAD -- 'kaggle/*.py' | head -1 | xargs -r basename | sed 's/\.py$//'); [ -z "$S" ] && S=gputest
           SLUG="golu-gpu-$(echo $S | tr '_' '-')"
           mkdir -p /tmp/k && cp kaggle/$S.py /tmp/k/run.py
           python - <<PY

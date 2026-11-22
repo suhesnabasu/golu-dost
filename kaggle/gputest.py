@@ -48,3 +48,4 @@ def wan():
 run("LTX-Video", ltx)
 run("Wan2.2-TI2V-5B", wan)
 log("DONE")
+# run 2
