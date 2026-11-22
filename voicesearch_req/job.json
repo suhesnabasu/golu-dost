@@ -1,0 +1,5 @@
+{"job":"raat_male_v1","language":"hi","max":10,"model":"s2.1-pro-free",
+ "queries":["hindi male","hindi narrator","hindi horror","deep male hindi","storyteller hindi","hindi man","bollywood male","hindi podcast male","radio hindi","indian male"],
+ "must_any":["male","man","boy","narrat","story","horror","deep","radio","podcast","voice over","baritone","पुरुष"],
+ "exclude":["45591c36161c494aa9aeccfe0a57b58b"],
+ "text":"[low, tense, frightened whisper, telling a true horror story] उस रात… पूरा घर सो रहा था। तभी दरवाज़े पर… किसी ने धीरे से दस्तक दी। ठक… ठक… ठक। और फिर… माँ की आवाज़ आई।"}

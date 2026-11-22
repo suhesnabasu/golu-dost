@@ -1,0 +1,61 @@
+name: Fish voice search + samples
+# Searches the public Fish Audio voice library and renders one sample line per candidate voice.
+# Reads voicesearch_req/job.json: {"job":..,"queries":[..],"language":"hi","max":10,"text":"..","model":"s2.1-pro-free","exclude":[ids]}
+# Results: branch "tts" under voicesearch/<job>/ (NN_<id>.wav + index.json with titles/tags/ids).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['voicesearch_req/**']
+permissions:
+  contents: write
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Search and render
+        env:
+          FISH_API_KEY: ${{ secrets.FISH_API_KEY }}
+        run: |
+          pip install -q requests
+          python - <<'PY'
+          import json, os, requests
+          job = json.load(open('voicesearch_req/job.json'))
+          H = {'Authorization': 'Bearer ' + os.environ['FISH_API_KEY']}
+          out = f"/tmp/out/voicesearch/{job['job']}"; os.makedirs(out, exist_ok=True)
+          seen, cands = set(job.get('exclude', [])), []
+          for q in job['queries']:
+              for params in ({'title': q, 'language': job.get('language', 'hi')}, {'title': q}):
+                  try:
+                      r = requests.get('https://api.fish.audio/model', params={**params, 'page_size': 30, 'sort_by': 'task_count'}, headers=H, timeout=60)
+                      items = r.json().get('items', []) if r.status_code == 200 else []
+                      print(q, params, r.status_code, len(items))
+                  except Exception as e:
+                      print('search fail', q, e); items = []
+                  for it in items:
+                      if it.get('_id') in seen or it.get('type', 'tts') != 'tts': continue
+                      seen.add(it['_id'])
+                      cands.append({'id': it['_id'], 'title': it.get('title'), 'tags': it.get('tags'), 'langs': it.get('languages'),
+                                    'uses': it.get('task_count'), 'desc': (it.get('description') or '')[:160]})
+          json.dump(cands, open(f'{out}/all_candidates.json', 'w'), ensure_ascii=False, indent=1)
+          picks = [c for c in cands if any(k in json.dumps(c, ensure_ascii=False).lower() for k in job.get('must_any', ['']))][: job.get('max', 10)]
+          for i, c in enumerate(picks):
+              try:
+                  r = requests.post('https://api.fish.audio/v1/tts', json={'text': job['text'], 'format': 'wav', 'reference_id': c['id']},
+                                    headers={**H, 'model': job.get('model', 's2.1-pro-free')}, timeout=300)
+                  if r.status_code == 200:
+                      open(f"{out}/{i:02d}_{c['id']}.wav", 'wb').write(r.content); c['file'] = f"{i:02d}_{c['id']}.wav"
+                  else: c['error'] = f'{r.status_code} {r.text[:200]}'
+              except Exception as e: c['error'] = repr(e)
+          json.dump(picks, open(f'{out}/index.json', 'w'), ensure_ascii=False, indent=1)
+          print(json.dumps(picks, ensure_ascii=False, indent=1))
+          PY
+      - name: Save to the tts branch
+        run: |
+          git config user.name tts-bot; git config user.email tts-bot@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin tts >/dev/null; then git switch -f tts; else git switch --orphan tts; fi
+          mkdir -p voicesearch && cp -r /tmp/out/voicesearch/* voicesearch/
+          git add voicesearch && git commit -m "Voice search $(ls /tmp/out/voicesearch)" && git push origin tts
