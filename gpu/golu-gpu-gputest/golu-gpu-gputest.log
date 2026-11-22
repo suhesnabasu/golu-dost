@@ -1,10 +1,110 @@
-[{"stream_name":"stdout","time":1.332368196,"data":"nvidia-smi missing: [Errno 2] No such file or directory: 'nvidia-smi'\n"}
-,{"stream_name":"stdout","time":7.082691287,"data":"cuda available: False \n"}
-,{"stream_name":"stdout","time":7.082825586,"data":"NO GPU - stopping\n"}
-,{"stream_name":"stderr","time":10.319097005,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":10.319132874,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":10.690209811999999,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":10.690237861,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":11.726524385,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":13.030001571,"data":"[NbConvertApp] Writing 289080 bytes to __results__.html\n"}
+[{"stream_name":"stdout","time":1.596117649,"data":"Sun Nov 22 09:13:27 2026       \n"}
+,{"stream_name":"stdout","time":1.5961601970000001,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":1.596181753,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":1.5961858530000002,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":1.596189318,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":1.596192803,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":1.5961961599999999,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":1.5961995930000001,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":1.596204872,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":1.5962126730000001,"data":"| N/A   51C    P8             11W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":1.5962157769999998,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":1.596219206,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":1.596235726,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":1.596239852,"data":"| N/A   52C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":1.596243947,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":1.596247992,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":1.596252045,"data":"\n"}
+,{"stream_name":"stdout","time":1.596255691,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":1.59625936,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":1.59626286,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":1.596266243,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":1.5962696520000001,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":1.596273043,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":1.596277468,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":1.5962810200000002,"data":"\n"}
+,{"stream_name":"stdout","time":9.473536688,"data":"cuda available: True Tesla T4\n"}
+,{"stream_name":"stderr","time":34.582070572,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":34.582109949,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":44.902428553,"data":"Disabling torchao because diffusers requires `torchao\u003e=0.15.0` but found version 0.10.0. Upgrade it with `pip install -U 'torchao\u003e=0.15.0'`.\n"}
+,{"stream_name":"stderr","time":58.623337848,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
+,{"stream_name":"stderr","time":58.623372662,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
+,{"stream_name":"stderr","time":58.972249428,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":185.763175049,"data":"\rFetching 18 files:   0%|          | 0/18 [00:00\u003c?, ?it/s]\rFetching 18 files:  11%|█         | 2/18 [00:00\u003c00:01, 15.67it/s]\rFetching 18 files:  33%|███▎      | 6/18 [00:00\u003c00:00, 28.49it/s]\rFetching 18 files:  50%|█████     | 9/18 [00:00\u003c00:00, 16.72it/s]\rFetching 18 files:  61%|██████    | 11/18 [00:19\u003c00:00, 16.72it/s]\rFetching 18 files:  67%|██████▋   | 12/18 [01:23\u003c01:04, 10.70s/it]\rFetching 18 files:  72%|███████▏  | 13/18 [01:24\u003c00:46,  9.21s/it]\rFetching 18 files:  72%|███████▏  | 13/18 [01:39\u003c00:46,  9.21s/it]\rFetching 18 files:  78%|███████▊  | 14/18 [02:06\u003c01:01, 15.26s/it]\rFetching 18 files: 100%|██████████| 18/18 [02:06\u003c00:00,  7.04s/it]\n"}
+,{"stream_name":"stderr","time":188.06366153,"data":"\rLoading pipeline components...:   0%|          | 0/5 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":197.718136958,"data":"\rLoading checkpoint shards:   0%|          | 0/2 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":208.597894115,"data":"\rLoading checkpoint shards:  50%|█████     | 1/2 [00:09\u003c00:09,  9.65s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":208.59807627,"data":"\rLoading checkpoint shards: 100%|██████████| 2/2 [00:20\u003c00:00, 10.38s/it]\u001b[A\rLoading checkpoint shards: 100%|██████████| 2/2 [00:20\u003c00:00, 10.27s/it]\n"}
+,{"stream_name":"stderr","time":208.793324372,"data":"\rLoading pipeline components...:  20%|██        | 1/5 [00:22\u003c01:31, 22.83s/it]\n"}
+,{"stream_name":"stderr","time":209.755817972,"data":"\rLoading weights:   0%|          | 0/219 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":212.334946626,"data":"\rLoading weights:   0%|          | 1/219 [00:00\u003c03:29,  1.04it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":214.509081431,"data":"\rLoading weights:   3%|▎         | 7/219 [00:03\u003c01:42,  2.06it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":217.070186219,"data":"\rLoading weights:   7%|▋         | 16/219 [00:05\u003c01:06,  3.08it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":219.034852003,"data":"\rLoading weights:  11%|█▏        | 25/219 [00:08\u003c00:59,  3.27it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":221.545257501,"data":"\rLoading weights:  16%|█▌        | 34/219 [00:10\u003c00:49,  3.71it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":223.657451844,"data":"\rLoading weights:  20%|█▉        | 43/219 [00:12\u003c00:48,  3.66it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":223.822629031,"data":"\rLoading weights:  24%|██▎       | 52/219 [00:14\u003c00:43,  3.85it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":226.311162109,"data":"\rLoading weights:  27%|██▋       | 59/219 [00:15\u003c00:31,  5.14it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":228.511107186,"data":"\rLoading weights:  28%|██▊       | 61/219 [00:17\u003c00:47,  3.32it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":228.672867608,"data":"\rLoading weights:  32%|███▏      | 70/219 [00:19\u003c00:41,  3.59it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":230.954035484,"data":"\rLoading weights:  32%|███▏      | 71/219 [00:19\u003c00:40,  3.68it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":233.136023863,"data":"\rLoading weights:  36%|███▌      | 79/219 [00:22\u003c00:38,  3.61it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":233.333198756,"data":"\rLoading weights:  40%|████      | 88/219 [00:24\u003c00:34,  3.79it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":235.63004252,"data":"\rLoading weights:  41%|████      | 89/219 [00:24\u003c00:33,  3.85it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":237.983447118,"data":"\rLoading weights:  44%|████▍     | 97/219 [00:26\u003c00:33,  3.69it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":238.132913891,"data":"\rLoading weights:  48%|████▊     | 106/219 [00:29\u003c00:30,  3.74it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":240.369928101,"data":"\rLoading weights:  49%|████▉     | 107/219 [00:29\u003c00:29,  3.84it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":240.613644959,"data":"\rLoading weights:  53%|█████▎    | 115/219 [00:31\u003c00:27,  3.73it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":242.788012594,"data":"\rLoading weights:  53%|█████▎    | 116/219 [00:31\u003c00:27,  3.75it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":245.149707231,"data":"\rLoading weights:  57%|█████▋    | 124/219 [00:33\u003c00:25,  3.72it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":245.38301569,"data":"\rLoading weights:  61%|██████    | 133/219 [00:36\u003c00:22,  3.76it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":247.741033368,"data":"\rLoading weights:  61%|██████    | 134/219 [00:36\u003c00:22,  3.79it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":249.991636114,"data":"\rLoading weights:  65%|██████▍   | 142/219 [00:38\u003c00:21,  3.61it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":250.15592057,"data":"\rLoading weights:  69%|██████▉   | 151/219 [00:41\u003c00:18,  3.76it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":252.601521378,"data":"\rLoading weights:  69%|██████▉   | 152/219 [00:41\u003c00:17,  3.85it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":254.550208908,"data":"\rLoading weights:  73%|███████▎  | 160/219 [00:43\u003c00:16,  3.59it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":254.969628246,"data":"\rLoading weights:  77%|███████▋  | 169/219 [00:45\u003c00:12,  3.94it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":257.161047739,"data":"\rLoading weights:  78%|███████▊  | 170/219 [00:46\u003c00:12,  3.79it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":257.573908704,"data":"\rLoading weights:  81%|████████▏ | 178/219 [00:48\u003c00:10,  3.73it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":259.726906242,"data":"\rLoading weights:  82%|████████▏ | 179/219 [00:48\u003c00:11,  3.60it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":261.966472369,"data":"\rLoading weights:  85%|████████▌ | 187/219 [00:50\u003c00:08,  3.65it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":262.341187392,"data":"\rLoading weights:  89%|████████▉ | 196/219 [00:53\u003c00:06,  3.79it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":264.567675841,"data":"\rLoading weights:  90%|████████▉ | 197/219 [00:53\u003c00:05,  3.70it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":266.253104283,"data":"\rLoading weights:  94%|█████████▎| 205/219 [00:55\u003c00:03,  3.65it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":266.42024316,"data":"\rLoading weights:  98%|█████████▊| 214/219 [00:57\u003c00:01,  4.18it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":267.857584037,"data":"\rLoading weights:  98%|█████████▊| 215/219 [00:57\u003c00:00,  4.26it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":267.857869191,"data":"\rLoading weights: 100%|██████████| 219/219 [00:59\u003c00:00,  3.75it/s]\u001b[A\rLoading weights: 100%|██████████| 219/219 [00:59\u003c00:00,  3.71it/s]\n"}
+,{"stream_name":"stderr","time":274.894638528,"data":"\rLoading pipeline components...:  40%|████      | 2/5 [01:22\u003c02:12, 44.27s/it]\rLoading pipeline components...:  60%|██████    | 3/5 [01:28\u003c00:54, 27.12s/it]\rLoading pipeline components...:  80%|████████  | 4/5 [01:29\u003c00:16, 16.52s/it]\rLoading pipeline components...: 100%|██████████| 5/5 [01:29\u003c00:00, 17.82s/it]\n"}
+,{"stream_name":"stderr","time":439.474345482,"data":"\r  0%|          | 0/40 [00:00\u003c?, ?it/s]\r  2%|▎         | 1/40 [00:14\u003c09:12, 14.16s/it]\r  5%|▌         | 2/40 [00:15\u003c04:08,  6.54s/it]\r  8%|▊         | 3/40 [00:18\u003c03:03,  4.95s/it]\r 10%|█         | 4/40 [00:21\u003c02:31,  4.20s/it]\r 12%|█▎        | 5/40 [00:24\u003c02:12,  3.80s/it]\r 15%|█▌        | 6/40 [00:27\u003c02:01,  3.57s/it]\r 18%|█▊        | 7/40 [00:30\u003c01:53,  3.42s/it]\r 20%|██        | 8/40 [00:33\u003c01:46,  3.34s/it]\r 22%|██▎       | 9/40 [00:37\u003c01:41,  3.29s/it]\r 25%|██▌       | 10/40 [00:40\u003c01:37,  3.25s/it]\r 28%|██▊       | 11/40 [00:43\u003c01:33,  3.22s/it]\r 30%|███       | 12/40 [00:46\u003c01:29,  3.21s/it]\r 32%|███▎      | 13/40 [00:49\u003c01:26,  3.21s/it]\r 35%|███▌      | 14/40 [00:53\u003c01:23,  3.22s/it]\r 38%|███▊      | 15/40 [00:56\u003c01:20,  3.22s/it]\r 40%|████      | 16/40 [00:59\u003c01:17,  3.23s/it]\r 42%|████▎     | 17/40 [01:02\u003c01:14,  3.24s/it]\r 45%|████▌     | 18/40 [01:06\u003c01:11,  3.26s/it]\r 48%|████▊     | 19/40 [01:09\u003c01:08,  3.27s/it]\r 50%|█████     | 20/40 [01:12\u003c01:05,  3.29s/it]\r 52%|█████▎    | 21/40 [01:16\u003c01:02,  3.31s/it]\r 55%|█████▌    | 22/40 [01:19\u003c00:59,  3.32s/it]\r 57%|█████▊    | 23/40 [01:22\u003c00:56,  3.33s/it]\r 60%|██████    | 24/40 [01:26\u003c00:53,  3.36s/it]\r 62%|██████▎   | 25/40 [01:29\u003c00:50,  3.38s/it]\r 65%|██████▌   | 26/40 [01:33\u003c00:47,  3.39s/it]\r 68%|██████▊   | 27/40 [01:36\u003c00:44,  3.40s/it]\r 70%|███████   | 28/40 [01:39\u003c00:41,  3.42s/it]\r 72%|███████▎  | 29/40 [01:43\u003c00:37,  3.43s/it]\r 75%|███████▌  | 30/40 [01:46\u003c00:34,  3.44s/it]\r 78%|███████▊  | 31/40 [01:50\u003c00:31,  3.45s/it]\r 80%|████████  | 32/40 [01:53\u003c00:27,  3.46s/it]\r 82%|████████▎ | 33/40 [01:57\u003c00:24,  3.48s/it]\r 85%|████████▌ | 34/40 [02:00\u003c00:20,  3.50s/it]\r 88%|████████▊ | 35/40 [02:04\u003c00:17,  3.51s/it]\r 90%|█████████ | 36/40 [02:07\u003c00:14,  3.51s/it]\r 92%|█████████▎| 37/40 [02:11\u003c00:10,  3.51s/it]\r 95%|█████████▌| 38/40 [02:14\u003c00:06,  3.50s/it]\r 98%|█████████▊| 39/40 [02:18\u003c00:03,  3.49s/it]\r100%|██████████| 40/40 [02:21\u003c00:00,  3.47s/it]\r100%|██████████| 40/40 [02:21\u003c00:00,  3.55s/it]\n"}
+,{"stream_name":"stderr","time":604.488394214,"data":"\r  0%|          | 0/40 [00:00\u003c?, ?it/s]\r  2%|▎         | 1/40 [00:14\u003c09:25, 14.51s/it]\r  5%|▌         | 2/40 [00:15\u003c04:18,  6.79s/it]\r  8%|▊         | 3/40 [00:19\u003c03:14,  5.26s/it]\r 10%|█         | 4/40 [00:22\u003c02:43,  4.54s/it]\r 12%|█▎        | 5/40 [00:26\u003c02:25,  4.16s/it]\r 15%|█▌        | 6/40 [00:29\u003c02:13,  3.92s/it]\r 18%|█▊        | 7/40 [00:33\u003c02:04,  3.78s/it]\r 20%|██        | 8/40 [00:36\u003c01:58,  3.70s/it]\r 22%|██▎       | 9/40 [00:40\u003c01:53,  3.65s/it]\r 25%|██▌       | 10/40 [00:43\u003c01:48,  3.63s/it]\r 28%|██▊       | 11/40 [00:47\u003c01:44,  3.62s/it]\r 30%|███       | 12/40 [00:51\u003c01:40,  3.61s/it]\r 32%|███▎      | 13/40 [00:54\u003c01:36,  3.59s/it]\r 35%|███▌      | 14/40 [00:58\u003c01:32,  3.57s/it]\r 38%|███▊      | 15/40 [01:01\u003c01:28,  3.55s/it]\r 40%|████      | 16/40 [01:05\u003c01:24,  3.53s/it]\r 42%|████▎     | 17/40 [01:08\u003c01:20,  3.50s/it]\r 45%|████▌     | 18/40 [01:11\u003c01:16,  3.48s/it]\r 48%|████▊     | 19/40 [01:15\u003c01:12,  3.47s/it]\r 50%|█████     | 20/40 [01:18\u003c01:09,  3.47s/it]\r 52%|█████▎    | 21/40 [01:22\u003c01:05,  3.46s/it]\r 55%|█████▌    | 22/40 [01:25\u003c01:02,  3.45s/it]\r 57%|█████▊    | 23/40 [01:29\u003c00:58,  3.45s/it]\r 60%|██████    | 24/40 [01:32\u003c00:55,  3.44s/it]\r 62%|██████▎   | 25/40 [01:36\u003c00:51,  3.44s/it]\r 65%|██████▌   | 26/40 [01:39\u003c00:48,  3.44s/it]\r 68%|██████▊   | 27/40 [01:42\u003c00:44,  3.44s/it]\r 70%|███████   | 28/40 [01:46\u003c00:41,  3.44s/it]\r 72%|███████▎  | 29/40 [01:49\u003c00:37,  3.45s/it]\r 75%|███████▌  | 30/40 [01:53\u003c00:34,  3.44s/it]\r 78%|███████▊  | 31/40 [01:56\u003c00:30,  3.44s/it]\r 80%|████████  | 32/40 [02:00\u003c00:27,  3.45s/it]\r 82%|████████▎ | 33/40 [02:03\u003c00:24,  3.45s/it]\r 85%|████████▌ | 34/40 [02:07\u003c00:20,  3.45s/it]\r 88%|████████▊ | 35/40 [02:10\u003c00:17,  3.45s/it]\r 90%|█████████ | 36/40 [02:13\u003c00:13,  3.45s/it]\r 92%|█████████▎| 37/40 [02:17\u003c00:10,  3.45s/it]\r 95%|█████████▌| 38/40 [02:20\u003c00:06,  3.46s/it]\r 98%|█████████▊| 39/40 [02:24\u003c00:03,  3.45s/it]\r100%|██████████| 40/40 [02:27\u003c00:00,  3.45s/it]\r100%|██████████| 40/40 [02:27\u003c00:00,  3.69s/it]\n"}
+,{"stream_name":"stdout","time":617.198151489,"data":"LTX-Video: OK in 565s\n"}
+,{"stream_name":"stderr","time":617.545336433,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py:206: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.\n"}
+,{"stream_name":"stderr","time":617.545365598,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":635.643527467,"data":"The config attributes {'clip_output': False} were passed to AutoencoderKLWan, but are not expected and will be ignored. Please verify your config.json configuration file.\n"}
+,{"stream_name":"stderr","time":772.562583558,"data":"\rFetching 18 files:   0%|          | 0/18 [00:00\u003c?, ?it/s]\rFetching 18 files:  17%|█▋        | 3/18 [00:00\u003c00:00, 23.32it/s]\rFetching 18 files:  39%|███▉      | 7/18 [00:00\u003c00:00, 31.73it/s]\rFetching 18 files:  50%|█████     | 9/18 [00:12\u003c00:00, 31.73it/s]\rFetching 18 files:  56%|█████▌    | 10/18 [00:22\u003c00:24,  3.02s/it]\rFetching 18 files:  61%|██████    | 11/18 [00:22\u003c00:18,  2.65s/it]\rFetching 18 files:  61%|██████    | 11/18 [00:32\u003c00:18,  2.65s/it]\rFetching 18 files:  67%|██████▋   | 12/18 [00:54\u003c00:49,  8.25s/it]\rFetching 18 files:  72%|███████▏  | 13/18 [02:09\u003c01:51, 22.31s/it]\rFetching 18 files:  78%|███████▊  | 14/18 [02:16\u003c01:15, 18.84s/it]\rFetching 18 files: 100%|██████████| 18/18 [02:16\u003c00:00,  7.58s/it]\n"}
+,{"stream_name":"stderr","time":772.765358823,"data":"\rLoading pipeline components...:   0%|          | 0/5 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":792.517007761,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":811.925146322,"data":"\rLoading checkpoint shards:  20%|██        | 1/5 [00:19\u003c01:19, 19.75s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":831.845324908,"data":"\rLoading checkpoint shards:  40%|████      | 2/5 [00:39\u003c00:58, 19.55s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":851.398485495,"data":"\rLoading checkpoint shards:  60%|██████    | 3/5 [00:59\u003c00:39, 19.72s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":852.828117574,"data":"\rLoading checkpoint shards:  80%|████████  | 4/5 [01:18\u003c00:19, 19.65s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":852.828487804,"data":"\rLoading checkpoint shards: 100%|██████████| 5/5 [01:20\u003c00:00, 13.08s/it]\u001b[A\rLoading checkpoint shards: 100%|██████████| 5/5 [01:20\u003c00:00, 16.01s/it]\n"}
+,{"stream_name":"stderr","time":853.067491763,"data":"\rLoading pipeline components...:  20%|██        | 1/5 [01:20\u003c05:21, 80.26s/it]\n"}
+,{"stream_name":"stderr","time":853.491799447,"data":"\rLoading weights:   0%|          | 0/242 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":854.8665076,"data":"\rLoading weights:   0%|          | 1/242 [00:00\u003c01:42,  2.36it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":855.127099218,"data":"\rLoading weights:   3%|▎         | 7/242 [00:01\u003c00:58,  4.01it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":855.373148169,"data":"\rLoading weights:   5%|▌         | 13/242 [00:02\u003c00:30,  7.47it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":856.201793066,"data":"\rLoading weights:   6%|▌         | 15/242 [00:02\u003c00:29,  7.60it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":856.497983636,"data":"\rLoading weights:   7%|▋         | 17/242 [00:03\u003c00:44,  5.08it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":856.747060855,"data":"\rLoading weights:   8%|▊         | 19/242 [00:03\u003c00:41,  5.41it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":857.824516291,"data":"\rLoading weights:  10%|▉         | 23/242 [00:03\u003c00:29,  7.47it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":858.072569244,"data":"\rLoading weights:  11%|█         | 27/242 [00:04\u003c00:39,  5.42it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":858.367026552,"data":"\rLoading weights:  12%|█▏        | 29/242 [00:05\u003c00:36,  5.83it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":862.468082394,"data":"\rLoading weights:  14%|█▎        | 33/242 [00:05\u003c00:28,  7.41it/s]\u001b[AKilled\n"}
+,{"stream_name":"stderr","time":865.894431566,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":865.894463046,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":866.244254146,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":866.244280305,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":868.774839421,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":869.826336561,"data":"[NbConvertApp] Writing 289080 bytes to __results__.html\n"}
 ]
