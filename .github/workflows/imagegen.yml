@@ -1,4 +1,4 @@
-name: Generate images (FLUX.1-schnell, Apache-2.0)
+name: Generate images (Gemini or Hugging Face)
 
 # Reads imagegen_req/job.json and generates each image with the Hugging Face Inference API
 # (secret HF_TOKEN). Results go to the "images" branch under images/<job>/.
@@ -21,9 +21,10 @@ jobs:
       - name: Generate
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         shell: bash
         run: |
-          pip install -q "huggingface_hub>=0.34" pillow
+          pip install -q "huggingface_hub>=0.34" "google-genai>=1.30" pillow
           python - <<'PY'
           import json, os, time
           from huggingface_hub import InferenceClient
@@ -32,11 +33,40 @@ jobs:
           model = job.get('model', 'black-forest-labs/FLUX.1-schnell')
           providers = job.get('providers', ['auto', 'fal-ai', 'together', 'nebius', 'replicate'])
           log = []
+          gem_models = job.get('gemini_models', ['gemini-2.5-flash-image', 'gemini-2.5-flash-image-preview', 'imagen-4.0-generate-001'])
+          def gemini(im):
+              from google import genai
+              from google.genai import types
+              from io import BytesIO
+              from PIL import Image
+              c = genai.Client(api_key=os.environ['GEMINI_API_KEY'])
+              for m in gem_models:
+                  try:
+                      if m.startswith('imagen'):
+                          r = c.models.generate_images(model=m, prompt=im['prompt'],
+                                config=types.GenerateImagesConfig(number_of_images=1, aspect_ratio=job.get('aspect', '9:16')))
+                          r.generated_images[0].image.save(f"{out}/{im['id']}.png")
+                      else:
+                          try:
+                              cfg = types.GenerateContentConfig(response_modalities=['IMAGE'],
+                                    image_config=types.ImageConfig(aspect_ratio=job.get('aspect', '9:16')))
+                          except Exception:
+                              cfg = types.GenerateContentConfig(response_modalities=['TEXT', 'IMAGE'])
+                          r = c.models.generate_content(model=m, contents=im['prompt'], config=cfg)
+                          parts = [p for p in r.candidates[0].content.parts if getattr(p, 'inline_data', None)]
+                          if not parts: raise RuntimeError('no image in response')
+                          Image.open(BytesIO(parts[0].inline_data.data)).save(f"{out}/{im['id']}.png")
+                      log.append(f"{im['id']}: ok via gemini/{m}"); return True
+                  except Exception as e:
+                      log.append(f"{im['id']} gemini/{m}: {str(e)[:300]}")
+              return False
           for im in job['images']:
               ok = False
-              for prov in providers:
+              if job.get('provider') == 'gemini' or (os.environ.get('GEMINI_API_KEY') and job.get('provider') != 'hf'):
+                  ok = gemini(im)
+              for prov in ([] if ok else providers):
                   try:
-                      c = InferenceClient(provider=prov, api_key=os.environ['HF_TOKEN'])
+                      c = InferenceClient(provider=prov, api_key=os.environ.get('HF_TOKEN',''))
                       img = c.text_to_image(im['prompt'], model=model, width=job.get('width', 768), height=job.get('height', 1344),
                                             num_inference_steps=job.get('steps', 4), seed=im.get('seed'))
                       img.save(f"{out}/{im['id']}.png"); ok = True; log.append(f"{im['id']}: ok via {prov}"); break
