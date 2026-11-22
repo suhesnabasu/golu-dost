@@ -4,7 +4,11 @@ OUT = "/kaggle/working"; LOG = []
 def log(*a):
     s = " ".join(str(x) for x in a); print(s, flush=True); LOG.append(s)
     open(f"{OUT}/log.txt", "w").write("\n".join(LOG))
-log(subprocess.run(["nvidia-smi"], capture_output=True, text=True).stdout)
+try: log(subprocess.run(["nvidia-smi"], capture_output=True, text=True).stdout)
+except Exception as e: log("nvidia-smi missing:", e)
+import torch
+log("cuda available:", torch.cuda.is_available(), torch.cuda.get_device_name(0) if torch.cuda.is_available() else "")
+if not torch.cuda.is_available(): log("NO GPU - stopping"); raise SystemExit
 subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers", "transformers", "accelerate", "ftfy", "imageio", "imageio-ffmpeg", "sentencepiece"], check=False)
 import torch
 from diffusers.utils import export_to_video, load_image
@@ -48,5 +52,3 @@ def wan():
 run("LTX-Video", ltx)
 run("Wan2.2-TI2V-5B", wan)
 log("DONE")
-# run 2
-# run 3
