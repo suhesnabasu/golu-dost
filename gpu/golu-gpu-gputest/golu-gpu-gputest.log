@@ -1,27 +1,10 @@
-[{"stream_name":"stderr","time":1.090915577,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":1.094109466,"data":"  File \"/kaggle/src/script.py\", line 7, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":1.09414139,"data":"    log(subprocess.run([\"nvidia-smi\"], capture_output=True, text=True).stdout)\n"}
-,{"stream_name":"stderr","time":1.094145938,"data":"        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":1.094149005,"data":"  File \"/usr/lib/python3.13/subprocess.py\", line 555, in run\n"}
-,{"stream_name":"stderr","time":1.094152405,"data":"    with Popen(*popenargs, **kwargs) as process:\n"}
-,{"stream_name":"stderr","time":1.094156247,"data":"         ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":1.094160032,"data":"  File \"/usr/lib/python3.13/subprocess.py\", line 1040, in __init__\n"}
-,{"stream_name":"stderr","time":1.094164427,"data":"    self._execute_child(args, executable, preexec_fn, close_fds,\n"}
-,{"stream_name":"stderr","time":1.09416826,"data":"    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":1.094172828,"data":"                        pass_fds, cwd, env,\n"}
-,{"stream_name":"stderr","time":1.094176623,"data":"                        ^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":1.094180803,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":1.094205582,"data":"                        gid, gids, uid, umask,\n"}
-,{"stream_name":"stderr","time":1.0942099220000001,"data":"                        ^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":1.09421376,"data":"                        start_new_session, process_group)\n"}
-,{"stream_name":"stderr","time":1.094217692,"data":"                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":1.09422175,"data":"  File \"/usr/lib/python3.13/subprocess.py\", line 1992, in _execute_child\n"}
-,{"stream_name":"stderr","time":1.094226192,"data":"    raise child_exception_type(errno_num, err_msg, err_filename)\n"}
-,{"stream_name":"stderr","time":1.0942300600000001,"data":"FileNotFoundError: [Errno 2] No such file or directory: 'nvidia-smi'\n"}
-,{"stream_name":"stderr","time":4.136258861,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":4.136295003,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":4.537537429,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":4.537565151,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":6.58741308,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":7.921919681,"data":"[NbConvertApp] Writing 287534 bytes to __results__.html\n"}
+[{"stream_name":"stdout","time":1.332368196,"data":"nvidia-smi missing: [Errno 2] No such file or directory: 'nvidia-smi'\n"}
+,{"stream_name":"stdout","time":7.082691287,"data":"cuda available: False \n"}
+,{"stream_name":"stdout","time":7.082825586,"data":"NO GPU - stopping\n"}
+,{"stream_name":"stderr","time":10.319097005,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10.319132874,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10.690209811999999,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10.690237861,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":11.726524385,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13.030001571,"data":"[NbConvertApp] Writing 289080 bytes to __results__.html\n"}
 ]
