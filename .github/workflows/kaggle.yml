@@ -31,7 +31,7 @@ jobs:
           python - <<PY
           import json, os
           json.dump({"id": os.environ["KAGGLE_USERNAME"] + "/$SLUG", "title": "$SLUG", "code_file": "run.py", "language": "python",
-                     "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True, "machine_shape": "NvidiaTeslaT4",
+                     "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True, "machine_shape": "NvidiaTeslaT4x2",
                      "dataset_sources": [], "competition_sources": [], "kernel_sources": []}, open("/tmp/k/kernel-metadata.json", "w"))
           PY
           kaggle kernels push -p /tmp/k
