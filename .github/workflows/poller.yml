@@ -74,14 +74,14 @@ jobs:
                   if p.get('drive_id'):
                       d = p['drive_id']
                       if d not in hosted:
-                          name = p.get('media_name') or f'{jid}_{d[:8]}.mp4'
+                          name = p.get('media_name') or f"{jid}_{d[:8]}.{'jpg' if p.get('is_image') else 'mp4'}"
                           n = drive_download(d, f'/tmp/{name}')
                           push_files('media', [(f'media/{name}', f'/tmp/{name}')], f'media {name}')
                           hosted[d] = f"https://raw.githubusercontent.com/{os.environ['REPO']}/media/media/{name}"
                           print('hosted', name, n, flush=True)
                       url = hosted[d]
                   inp = {'channelId': p['channelId'], 'text': p.get('text', ''), 'schedulingType': 'automatic', 'needsApproval': False,
-                         'assets': [{'video': {'url': url}}] if url else [], 'mode': 'customScheduled' if p.get('dueAt') else 'addToQueue'}
+                         'assets': [{('image' if p.get('is_image') else 'video'): {'url': url}}] if url else [], 'mode': 'customScheduled' if p.get('dueAt') else 'addToQueue'}
                   if p.get('dueAt'): inp['dueAt'] = p['dueAt']
                   inp.update(p.get('extra', {}))
                   res.append({'channelId': p['channelId'], 'dueAt': p.get('dueAt'), 'video_url': url, 'out': gql(MUT, {'i': inp})})
