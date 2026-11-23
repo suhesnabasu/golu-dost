@@ -1,29 +1,12 @@
 {
- "job": "abcd_1123_1795433726",
+ "job": "count_1124_1795434130",
  "action": "post",
  "posts": [
   {
-   "channelId": "6b03d8468541f09ecb7195b7",
-   "text": "A for Apple, B for Ball! बच्चों के लिए ABCD — A से Z तक, अंग्रेज़ी अक्षर और हिंदी शब्द एक साथ।\nLearn ABCD for kids in Hindi & English with Golu the baby elephant — alphabet, phonics and Hindi words.\n\nA Apple सेब · B Ball गेंद · C Cat बिल्ली · D Dog कुत्ता · E Elephant हाथी … Z Zebra ज़ेबरा\nकल: गिनती 1 से 10! Tomorrow: Counting 1 to 10.\n\nनए वीडियो रोज़ — Subscribe! https://www.youtube.com/@golu_dost1\nHindi Rhymes playlist: https://www.youtube.com/playlist?list=PLU_6cS2QtwHs\n\n#ABCD #AlphabetSong #KidsLearning #HindiRhymes #बच्चोंकीकविता",
-   "dueAt": "2026-11-23T14:00:00.000Z",
-   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ABCD_Golu_A_to_Z.mp4",
-   "extra": {
-    "metadata": {
-     "youtube": {
-      "title": "ABCD for Kids | A for Apple | ए बी सी डी सीखें | Golu & Dost #shorts",
-      "madeForKids": true,
-      "privacy": "public",
-      "categoryId": "27",
-      "notifySubscribers": true
-     }
-    }
-   }
-  },
-  {
    "channelId": "6b03d7e48541f09ecb7188b5",
-   "text": "ABCD for Kids 🔤 A for Apple, B for Ball — A से Z तक गोलू के साथ!\nA to Z in English + Hindi words (सेब, गेंद, बिल्ली…). अपने बच्चे को दिखाइए 👶 Share with a parent!\n\n#ABCD #KidsLearning #HindiRhymes #ToddlerLearning #बच्चोंकीकविता",
-   "dueAt": "2026-11-23T14:00:00.000Z",
-   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ABCD_Golu_A_to_Z.mp4",
+   "text": "गिनती 1 से 10 🎈 Count to 10 with Golu! एक, दो, तीन… and then Golu FLIES away! 🐘\nHindi + English counting for toddlers. अपने बच्चे को दिखाइए 👶 Share with a parent!\n\n#Ginti #CountingForKids #KidsLearning #HindiRhymes #बच्चोंकीकविता",
+   "dueAt": "2026-11-24T07:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4",
    "extra": {
     "metadata": {
      "instagram": {
@@ -37,8 +20,8 @@
   {
    "channelId": "6b03d7e48541f09ecb7188b5",
    "text": "",
-   "dueAt": "2026-11-23T14:05:00.000Z",
-   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ABCD_Golu_A_to_Z.mp4",
+   "dueAt": "2026-11-24T07:35:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4",
    "extra": {
     "metadata": {
      "instagram": {
@@ -51,9 +34,9 @@
   },
   {
    "channelId": "6b03d8178541f09ecb718f64",
-   "text": "ABCD for Kids | A for Apple | ए बी सी डी सीखें — Golu & Dost\n\nA to Z in English + Hindi words with Golu the baby elephant 🐘 अपने बच्चे को दिखाइए 👶 Share with a parent!\nMore: https://www.youtube.com/@golu_dost1\n#ABCD #KidsLearning #HindiRhymes #ToddlerLearning",
-   "dueAt": "2026-11-23T14:00:00.000Z",
-   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ABCD_Golu_A_to_Z.mp4",
+   "text": "गिनती 1 से 10 | Counting 1 to 10 for Kids — Golu & Dost\n\nएक, दो, तीन… 10 balloons and Golu flies up, up, up! 🎈 अपने बच्चे को दिखाइए 👶 Share with a parent!\nMore: https://www.youtube.com/@golu_dost1\n#Ginti #CountingForKids #KidsLearning #ToddlerLearning",
+   "dueAt": "2026-11-24T07:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4",
    "extra": {
     "metadata": {
      "facebook": {
