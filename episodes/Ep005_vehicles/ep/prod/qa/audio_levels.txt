@@ -1,5 +1,0 @@
-Rendered 1080x1920 delivery file: integrated loudness -12.2 LUFS (target -14; the 720p publish copy is re-normalised to -14 LUFS / -1 dBTP), LRA 1.7 LU.
-Voice-window RMS per line (dB, mixed): a1 -13.3, a2 -14.1, b1 -13.8, c1 -14.0, c2 -13.9, c3 -15.4, d1 -13.2, d2 -14.6, d3 -15.9, e1 -13.2, e2 -15.4, e3 -14.1, f1 -13.1, f2 -14.5, f3 -14.6, g1 -14.4, h1 -14.5, h2 -14.3, s1 -14.3, k1 -14.1, k2 -13.6
-Music-only gaps median RMS: -18.2 dB (music ducks ~55% under voices) -> voices sit ~4-5 dB above the music bed even before ducking.
-Voices: Fish Audio job was submitted but the GitHub TTS workflow had not processed it after 80+ min, so this build uses the Kokoro fallback voices (voices2.py), code-mixed lines split into Hindi/English chunks.
-Golu mouth = lip-sync from his voice envelope (pre-drawn mouth toggled, scaled with svgOrigin).

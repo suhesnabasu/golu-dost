@@ -1,9 +1,0 @@
-{"job":"chakwa_style_test","width":1344,"height":768,"steps":4,
- "style":"cinematic graphic novel illustration, bold black ink outlines, realistic proportions, painted textured background, dramatic moody lighting, film grain, Indian horror comic,",
- "negative":"photo, 3d render, cute, chibi, deformed hands, extra fingers, extra limbs, text, watermark, blurry",
- "images":[
-  {"id":"arjun_bed_phone","seed":11,"prompt":"a young Indian man in his twenties with stubble and messy black hair sitting on a bed at night in a small Indian bedroom, holding a glowing smartphone in both hands, terrified face lit blue by the screen, ceiling fan, window with iron grill, rain outside"},
-  {"id":"door_light","seed":22,"prompt":"close-up of an old wooden door of an Indian house at night, thin strip of warm orange light under the door, shadows of two feet in the light, dark corridor, rain"},
-  {"id":"maa_photo_diya","seed":33,"prompt":"a framed old photograph of an Indian woman in her fifties wearing a saree and bindi, marigold flower garland hanging on the frame, a small brass oil lamp diya burning in front, dark room, warm flickering light"},
-  {"id":"station_night","seed":44,"prompt":"deserted small Indian railway station platform at midnight in heavy rain, yellow sodium lamps, a hindi signboard, empty benches, wet reflections, fog"}
- ]}
