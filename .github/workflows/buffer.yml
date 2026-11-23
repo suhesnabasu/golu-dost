@@ -42,6 +42,8 @@ jobs:
                       types[t] = gql('query($n:String!){ __type(name:$n){ name kind inputFields{ name type{ name kind ofType{ name kind ofType{ name kind ofType{ name kind } } } } } enumValues{ name } } }', {"n": t})
                   out["types"] = types
                   out["mutations"] = gql('{ __schema { mutationType { fields { name args { name type { name kind ofType { name } } } } } } }')
+              elif job["action"] == "raw":
+                  out["raw"] = [gql(q.get("query"), q.get("variables")) for q in job["queries"]]
               elif job["action"] == "post":
                   res = []
                   for p in job["posts"]:
