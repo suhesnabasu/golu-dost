@@ -1,0 +1,78 @@
+{
+ "job": "urltest",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://drive.google.com/uc?export=download&id=1QObggGZJgXKkUHNs3gV5dw05Lu8bGkRY"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-30T10:00:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "reel"
+     }
+    },
+    "saveToDraft": true
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b03dc17c72676f5e98fdc57",
+        "dueAt": "2026-11-30T10:00:00.000Z",
+        "status": "draft"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/test_brush.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-30T10:00:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "reel"
+     }
+    },
+    "saveToDraft": true
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b03dc18846b0ee907ebb802",
+        "dueAt": "2026-11-30T10:00:00.000Z",
+        "status": "draft"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
