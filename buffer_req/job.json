@@ -1,84 +1,8 @@
 {
- "job": "fbimg_6_1795453482",
- "action": "post",
- "posts": [
-  {
-   "channelId": "6b03d8178541f09ecb718f64",
-   "text": "G for ____? 🍇 अपने बच्चे से पूछिए!\nWhat does G stand for? Answer in the comments 👇\nFull ABCD video ➜ https://www.youtube.com/@golu_dost1\n#ABCD #KidsQuiz #KidsLearning",
-   "dueAt": "2026-11-24T04:30:00.000Z",
-   "image_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_2.jpg",
-   "extra": {
-    "metadata": {
-     "facebook": {
-      "type": "post"
-     }
-    }
-   }
-  },
-  {
-   "channelId": "6b03d8178541f09ecb718f64",
-   "text": "गोलू का फ़ेवरेट फल कौन सा है? 🥭🍌🍎\nVote with a reaction: ❤️ आम Mango · 👍 केला Banana · 😮 सेब Apple\nhttps://www.youtube.com/@golu_dost1\n#KidsPoll #HindiForKids",
-   "dueAt": "2026-11-24T06:30:00.000Z",
-   "image_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_4.jpg",
-   "extra": {
-    "metadata": {
-     "facebook": {
-      "type": "post"
-     }
-    }
-   }
-  },
-  {
-   "channelId": "6b03d8178541f09ecb718f64",
-   "text": "आपका बच्चा कितने साल का है? 👶\nReact: 👍 1–2 साल · ❤️ 3–4 साल · 😮 5+ साल\nबताइए, ताकि हम उनके लिए सही वीडियो बनाएँ! Tell us so we make the right videos 💛\nhttps://www.youtube.com/@golu_dost1",
-   "dueAt": "2026-11-24T10:30:00.000Z",
-   "image_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_5.jpg",
-   "extra": {
-    "metadata": {
-     "facebook": {
-      "type": "post"
-     }
-    }
-   }
-  },
-  {
-   "channelId": "6b03d8178541f09ecb718f64",
-   "text": "कौन बोलता है 'मूँ'? 🐄 Who says Moo?\nबच्चे से पूछिए और React करें: 👍 Dog · ❤️ Cow · 😮 Cat\nhttps://www.youtube.com/@golu_dost1\n#AnimalSounds #KidsQuiz",
-   "dueAt": "2026-11-24T14:00:00.000Z",
-   "image_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_6.jpg",
-   "extra": {
-    "metadata": {
-     "facebook": {
-      "type": "post"
-     }
-    }
-   }
-  },
-  {
-   "channelId": "6b03d8178541f09ecb718f64",
-   "text": "कौन सा नंबर छूट गया? 1, 2, ?, 4, 5 🔢\nWhich number is missing? Comment करें 👇\nCount 1 to 10 with Golu ➜ https://www.youtube.com/@golu_dost1\n#Counting #KidsQuiz #गिनती",
-   "dueAt": "2026-11-24T16:00:00.000Z",
-   "image_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_7.jpg",
-   "extra": {
-    "metadata": {
-     "facebook": {
-      "type": "post"
-     }
-    }
-   }
-  },
-  {
-   "channelId": "6b03d8178541f09ecb718f64",
-   "text": "M for ____? 🥭 बच्चे से पूछिए!\nWhat does M stand for? Answer in the comments 👇\nhttps://www.youtube.com/@golu_dost1\n#ABCD #KidsQuiz",
-   "dueAt": "2026-11-25T04:30:00.000Z",
-   "image_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_3.jpg",
-   "extra": {
-    "metadata": {
-     "facebook": {
-      "type": "post"
-     }
-    }
-   }
-  }
+ "job": "chinfo_1795458954",
+ "action": "raw",
+ "queries": [
+  "query { channel(input:{id:\"6b03d8178541f09ecb718f64\"}) { name displayName service serviceId } }",
+  "query { channel(input:{id:\"6b03d7e48541f09ecb7188b5\"}) { name displayName service serviceId } }"
  ]
 }
