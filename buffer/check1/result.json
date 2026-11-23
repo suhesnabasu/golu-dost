@@ -1,0 +1,100 @@
+{
+ "job": "check1",
+ "key_present": true,
+ "raw": [
+  [
+   200,
+   {
+    "data": {
+     "post": {
+      "id": "6b03db46c72676f5e98f8b18",
+      "status": "scheduled",
+      "channelService": "youtube",
+      "dueAt": "2026-11-23T06:50:00.000Z",
+      "sentAt": null,
+      "externalLink": null,
+      "error": null
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "post": {
+      "id": "6b03dba9846b0ee907eb99d1",
+      "status": "scheduled",
+      "channelService": "instagram",
+      "dueAt": "2026-11-23T06:50:00.000Z",
+      "sentAt": null,
+      "externalLink": null,
+      "error": null
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "post": {
+      "id": "6b03dbaad864a01105281072",
+      "status": "scheduled",
+      "channelService": "facebook",
+      "dueAt": "2026-11-23T06:50:00.000Z",
+      "sentAt": null,
+      "externalLink": null,
+      "error": null
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "post": {
+      "id": "6b03dbab846b0ee907eb9a5b",
+      "status": "scheduled",
+      "channelService": "instagram",
+      "dueAt": "2026-11-23T06:55:00.000Z",
+      "sentAt": null,
+      "externalLink": null,
+      "error": null
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "post": {
+      "id": "6b03dd06a6de38de9ec47d11",
+      "status": "scheduled",
+      "channelService": "instagram",
+      "dueAt": "2026-11-23T07:15:00.000Z",
+      "sentAt": null,
+      "externalLink": null,
+      "error": null
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "__type": {
+      "inputFields": [
+       {
+        "name": "id"
+       }
+      ]
+     }
+    }
+   }
+  ]
+ ]
+}
