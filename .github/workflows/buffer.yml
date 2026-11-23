@@ -38,9 +38,8 @@ jobs:
                       out["channels"] = [gql('query($o: OrganizationId!){ channels(input:{organizationId:$o}){ id name service } }', {"o": o["id"]}) for o in orgs]
                   except Exception as e: out["channels_err"] = repr(e)
                   types = {}
-                  for t in ["CreatePostInput", "AssetsInput", "VideoAssetInput", "PostInputMetaData", "YoutubePostMetadataInput",
-                            "InstagramPostMetadataInput", "FacebookPostMetadataInput", "SchedulingType", "ShareMode", "PostType"]:
-                      types[t] = gql('query($n:String!){ __type(name:$n){ name kind inputFields{ name type{ name kind ofType{ name kind ofType{ name kind } } } } enumValues{ name } } }', {"n": t})
+                  for t in job.get("types", ["CreatePostInput", "PostInputMetaData"]):
+                      types[t] = gql('query($n:String!){ __type(name:$n){ name kind inputFields{ name type{ name kind ofType{ name kind ofType{ name kind ofType{ name kind } } } } } enumValues{ name } } }', {"n": t})
                   out["types"] = types
                   out["mutations"] = gql('{ __schema { mutationType { fields { name args { name type { name kind ofType { name } } } } } } }')
               elif job["action"] == "post":

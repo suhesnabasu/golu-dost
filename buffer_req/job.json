@@ -1,1 +1,1 @@
-{"job":"probe1","action":"probe"}
+{"job":"probe2","action":"probe","types":["AssetInput","AssetsInput","PostAssetInput","CreatePostAssetInput","PostTypeFacebook","YoutubePrivacy","VideoMetadataInput","ImageAssetInput"]}
