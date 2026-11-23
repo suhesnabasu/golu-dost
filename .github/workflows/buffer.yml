@@ -45,10 +45,10 @@ jobs:
               elif job["action"] == "post":
                   res = []
                   for p in job["posts"]:
-                      inp = {"channelId": p["channelId"], "text": p.get("text", ""), "schedulingType": "automatic"}
+                      inp = {"channelId": p["channelId"], "text": p.get("text", ""), "schedulingType": "automatic", "needsApproval": False, "assets": []}
                       if p.get("dueAt"): inp.update({"mode": "customScheduled", "dueAt": p["dueAt"]})
                       else: inp["mode"] = "addToQueue"
-                      if p.get("video_url"): inp["assets"] = {"videos": [{"url": p["video_url"]}]}
+                      if p.get("video_url"): inp["assets"] = [{"video": {"url": p["video_url"]}}]
                       inp.update(p.get("extra", {}))
                       q = "mutation($i: CreatePostInput!){ createPost(input:$i){ ... on PostActionSuccess { post { id dueAt status } } ... on MutationError { message } } }"
                       res.append({"in": {k: v for k, v in inp.items() if k != "text"}, "out": gql(q, {"i": inp})})

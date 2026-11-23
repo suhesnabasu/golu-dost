@@ -1,1 +1,23 @@
-{"job":"probe2","action":"probe","types":["AssetInput","AssetsInput","PostAssetInput","CreatePostAssetInput","PostTypeFacebook","YoutubePrivacy","VideoMetadataInput","ImageAssetInput"]}
+{
+ "job": "test_yt_vehicles",
+ "action": "post",
+ "posts": [
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "text": "गाड़ियाँ और उनकी आवाज़ें | Vehicle Sounds for Kids in Hindi | Golu & Dost\nगोलू के साथ गाड़ियाँ और उनकी आवाज़ें सीखो — रेलगाड़ी छुक-छुक, बस पों-पों, ट्रैक्टर घर्र-घर्र, दमकल वीं-वूँ! 🚂🚌🚜🚒\nLearn vehicle sounds for kids in Hindi & English with Golu the baby elephant — train, bus, tractor and fire truck!\n\nMore: Vehicles & Sounds playlist https://www.youtube.com/playlist?list=PLX4RVbPZ3zRw\nनए वीडियो रोज़ — Subscribe!\n#VehicleSounds #HindiRhymes #KidsSongs #बच्चोंकीकविता #Shorts",
+   "dueAt": "2026-11-23T06:50:00.000Z",
+   "video_url": "https://static.metricool.com/planner/202611/8255605-file-15959690367235049603.mp4",
+   "extra": {
+    "metadata": {
+     "youtube": {
+      "title": "गाड़ियाँ 🚂 Vehicle Sounds for Kids in Hindi | Golu & Dost #shorts",
+      "madeForKids": true,
+      "privacy": "public",
+      "categoryId": "27",
+      "notifySubscribers": true
+     }
+    }
+   }
+  }
+ ]
+}
