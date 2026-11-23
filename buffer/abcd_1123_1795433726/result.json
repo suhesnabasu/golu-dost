@@ -1,0 +1,146 @@
+{
+ "job": "abcd_1123_1795433726",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8468541f09ecb7195b7",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ABCD_Golu_A_to_Z.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-23T14:00:00.000Z",
+    "metadata": {
+     "youtube": {
+      "title": "ABCD for Kids | A for Apple | ए बी सी डी सीखें | Golu & Dost #shorts",
+      "madeForKids": true,
+      "privacy": "public",
+      "categoryId": "27",
+      "notifySubscribers": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ABCD_Golu_A_to_Z.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-23T14:00:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "reel",
+      "shouldShareToFeed": true,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b04250fa8420aaa335746dd",
+        "dueAt": "2026-11-23T14:00:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ABCD_Golu_A_to_Z.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-23T14:05:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "story",
+      "shouldShareToFeed": false,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Invalid post: Video must be no longer than 1m 1s for Instagram Stories."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ABCD_Golu_A_to_Z.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-23T14:00:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "reel"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b04250f21a0f649aa4a71fc",
+        "dueAt": "2026-11-23T14:00:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
