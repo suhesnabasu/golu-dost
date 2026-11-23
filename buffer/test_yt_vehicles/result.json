@@ -1,0 +1,45 @@
+{
+ "job": "test_yt_vehicles",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8468541f09ecb7195b7",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://static.metricool.com/planner/202611/8255605-file-15959690367235049603.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-23T06:50:00.000Z",
+    "metadata": {
+     "youtube": {
+      "title": "गाड़ियाँ 🚂 Vehicle Sounds for Kids in Hindi | Golu & Dost #shorts",
+      "madeForKids": true,
+      "privacy": "public",
+      "categoryId": "27",
+      "notifySubscribers": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b03db46c72676f5e98f8b18",
+        "dueAt": "2026-11-23T06:50:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
