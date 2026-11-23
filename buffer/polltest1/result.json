@@ -1,0 +1,16 @@
+{
+ "job": "polltest1",
+ "results": [],
+ "raw": [
+  [
+   200,
+   {
+    "data": {
+     "account": {
+      "email": "suhesna26@gmail.com"
+     }
+    }
+   }
+  ]
+ ]
+}
