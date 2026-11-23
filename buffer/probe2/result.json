@@ -1,0 +1,632 @@
+{
+ "job": "probe2",
+ "key_present": true,
+ "orgs": [
+  200,
+  {
+   "data": {
+    "account": {
+     "id": "6b03d77b07e3daab80249d80",
+     "email": "suhesna26@gmail.com",
+     "organizations": [
+      {
+       "id": "6b03d77b07e3daab80249d82",
+       "name": "My organization"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "channels": [
+  [
+   200,
+   {
+    "data": {
+     "channels": [
+      {
+       "id": "6b03d8468541f09ecb7195b7",
+       "name": "गोलू और दोस्त - Golu & Dost",
+       "service": "youtube"
+      },
+      {
+       "id": "6b03d8178541f09ecb718f64",
+       "name": "गोलू और दोस्त - Golu & Dost",
+       "service": "facebook"
+      },
+      {
+       "id": "6b03d7e48541f09ecb7188b5",
+       "name": "____golu__dost",
+       "service": "instagram"
+      }
+     ]
+    }
+   }
+  ]
+ ],
+ "types": {
+  "AssetInput": [
+   200,
+   {
+    "data": {
+     "__type": {
+      "name": "AssetInput",
+      "kind": "INPUT_OBJECT",
+      "inputFields": [
+       {
+        "name": "document",
+        "type": {
+         "name": "DocumentAssetInput",
+         "kind": "INPUT_OBJECT",
+         "ofType": null
+        }
+       },
+       {
+        "name": "image",
+        "type": {
+         "name": "ImageAssetInput",
+         "kind": "INPUT_OBJECT",
+         "ofType": null
+        }
+       },
+       {
+        "name": "video",
+        "type": {
+         "name": "VideoAssetInput",
+         "kind": "INPUT_OBJECT",
+         "ofType": null
+        }
+       }
+      ],
+      "enumValues": null
+     }
+    }
+   }
+  ],
+  "AssetsInput": [
+   200,
+   {
+    "data": {
+     "__type": null
+    }
+   }
+  ],
+  "PostAssetInput": [
+   200,
+   {
+    "data": {
+     "__type": null
+    }
+   }
+  ],
+  "CreatePostAssetInput": [
+   200,
+   {
+    "data": {
+     "__type": null
+    }
+   }
+  ],
+  "PostTypeFacebook": [
+   200,
+   {
+    "data": {
+     "__type": {
+      "name": "PostTypeFacebook",
+      "kind": "ENUM",
+      "inputFields": null,
+      "enumValues": [
+       {
+        "name": "post"
+       },
+       {
+        "name": "reel"
+       },
+       {
+        "name": "story"
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "YoutubePrivacy": [
+   200,
+   {
+    "data": {
+     "__type": {
+      "name": "YoutubePrivacy",
+      "kind": "ENUM",
+      "inputFields": null,
+      "enumValues": [
+       {
+        "name": "private"
+       },
+       {
+        "name": "public"
+       },
+       {
+        "name": "unlisted"
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "VideoMetadataInput": [
+   200,
+   {
+    "data": {
+     "__type": {
+      "name": "VideoMetadataInput",
+      "kind": "INPUT_OBJECT",
+      "inputFields": [
+       {
+        "name": "thumbnailOffset",
+        "type": {
+         "name": "Int",
+         "kind": "SCALAR",
+         "ofType": null
+        }
+       },
+       {
+        "name": "title",
+        "type": {
+         "name": "String",
+         "kind": "SCALAR",
+         "ofType": null
+        }
+       }
+      ],
+      "enumValues": null
+     }
+    }
+   }
+  ],
+  "ImageAssetInput": [
+   200,
+   {
+    "data": {
+     "__type": {
+      "name": "ImageAssetInput",
+      "kind": "INPUT_OBJECT",
+      "inputFields": [
+       {
+        "name": "metadata",
+        "type": {
+         "name": "ImageMetadataInput",
+         "kind": "INPUT_OBJECT",
+         "ofType": null
+        }
+       },
+       {
+        "name": "thumbnailUrl",
+        "type": {
+         "name": "String",
+         "kind": "SCALAR",
+         "ofType": null
+        }
+       },
+       {
+        "name": "url",
+        "type": {
+         "name": null,
+         "kind": "NON_NULL",
+         "ofType": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+         }
+        }
+       }
+      ],
+      "enumValues": null
+     }
+    }
+   }
+  ]
+ },
+ "mutations": [
+  200,
+  {
+   "data": {
+    "__schema": {
+     "mutationType": {
+      "fields": [
+       {
+        "name": "createSnippet",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "CreateSnippetInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "deleteSnippet",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "DeleteSnippetInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "updateSnippet",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "UpdateSnippetInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "createCollaborationNote",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "CreateCollaborationNoteInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "deleteCollaborationNote",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "DeleteCollaborationNoteInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "updateCollaborationNote",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "UpdateCollaborationNoteInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "createPost",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "CreatePostInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "deletePost",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "DeletePostInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "editPost",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "EditPostInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "movePostInQueue",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "MovePostInQueueInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "publishPostNow",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "PublishPostNowInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "addPostToContentItem",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "AddPostToContentItemInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "createContentItem",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "CreateContentItemInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "createContentItemDraft",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "CreateContentItemDraftInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "deleteContentItem",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "DeleteContentItemInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "promoteContentItemDraftToPosts",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "PromoteContentItemDraftToPostsInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "removePostFromContentItem",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "RemovePostFromContentItemInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "updateContentItem",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "UpdateContentItemInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "updateContentItemDraft",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "UpdateContentItemDraftInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "createTag",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "CreateTagInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "deleteTag",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "DeleteTagInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "updateTag",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "UpdateTagInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "createPostTemplate",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "CreatePostTemplateInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "deletePostTemplate",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "DeletePostTemplateInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "updatePostTemplate",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "UpdatePostTemplateInput"
+           }
+          }
+         }
+        ]
+       },
+       {
+        "name": "createIdea",
+        "args": [
+         {
+          "name": "input",
+          "type": {
+           "name": null,
+           "kind": "NON_NULL",
+           "ofType": {
+            "name": "CreateIdeaInput"
+           }
+          }
+         }
+        ]
+       }
+      ]
+     }
+    }
+   }
+  }
+ ]
+}
