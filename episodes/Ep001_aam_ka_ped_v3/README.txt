@@ -1,0 +1,1 @@
+v3 remake (22 Nov): Fish Audio S2.1 Pro voices (job tts_job_remake3_fish), soft-3D Golu v2; counting moved to STEP0 8.6 / STEP 2.85 so the Fish intro lines fit; audio_v3.py keeps the original synthesized song + SFX

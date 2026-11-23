@@ -1,0 +1,2 @@
+Voice windows (RMS dBFS): a1: -14.2 dB, a2: -12.5 dB, a3: -12.7 dB, b1: -13.5 dB, b2: -14.2 dB, b3: -14.1 dB, b4: -13.6 dB, c1: -14.3 dB, c2: -15.4 dB, c3a: -15.2 dB, c3b: -16.0 dB, d1: -15.1 dB, d2: -15.3 dB, d3a: -12.8 dB, d3: -13.6 dB, d3b: -14.1 dB, d4: -12.8 dB, d5: -13.5 dB, d6: -10.8 dB, e1: -14.0 dB, e2a: -16.4 dB, e2b: -18.2 dB, e3: -14.4 dB, f1: -13.6 dB, f2: -14.0 dB
+Music/SFX-only gaps mean: -16.5 dB

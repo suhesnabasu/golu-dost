@@ -1,0 +1,161 @@
+{
+ "engine": "fish",
+ "model": "s2.1-pro-free",
+ "lines": [
+  {
+   "id": "a1",
+   "text": "[cheerful, excited little child] अरे! रुको, बनी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a2",
+   "text": "[sweet, soft, giggly little girl] मैं पहले!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "a3",
+   "text": "[squeaky, playful, fast little voice] धप्प! धप्प!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b1",
+   "text": "[sweet, soft, giggly little girl] मैं फिर से!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "b2",
+   "text": "[squeaky, playful, fast little voice] फिर से! फिर से!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b3",
+   "text": "[cheerful, excited little child] अरे, सब उदास हो गए।",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b4",
+   "text": "[sweet, soft, giggly little girl] अकेले मज़ा नहीं आता।",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c1",
+   "text": "[cheerful, excited little child] चलो, बारी-बारी खेलें!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c2",
+   "text": "[squeaky, playful, fast little voice] Take turns! Take turns!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3a_a",
+   "text": "[happy children cheering together] बारी-बारी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3a_b",
+   "text": "[happy children cheering together] बारी-बारी!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c3b_a",
+   "text": "[happy children cheering together] Take turns!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3b_b",
+   "text": "[happy children cheering together] Take turns!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d1_a",
+   "text": "[happy children cheering together] परी की बारी! वीईई!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d1_b",
+   "text": "[happy children cheering together] परी की बारी! वीईई!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d2_a",
+   "text": "[happy children cheering together] चिंटू की बारी! वीईई!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d2_b",
+   "text": "[happy children cheering together] चिंटू की बारी! वीईई!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d3a",
+   "text": "[sweet, soft, giggly little girl] उफ़! रुकना मुश्किल है!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d3",
+   "text": "[squeaky, playful, fast little voice] रुको! रुको!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d3b",
+   "text": "[cheerful, excited little child] शाबाश, बनी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d4",
+   "text": "[sweet, soft, giggly little girl] मेरी बारी! वीईई!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d5",
+   "text": "[cheerful, excited little child] अब मेरी बारी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d6",
+   "text": "[squeaky, playful, fast little voice] Plop! Plop!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e1",
+   "text": "[cheerful, excited little child] बारी-बारी, सबकी बारी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e2a_a",
+   "text": "[happy children cheering together] Wait your turn!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e2a_b",
+   "text": "[happy children cheering together] Wait your turn!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "e2b_a",
+   "text": "[happy children cheering together] Everyone gets a turn!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e2b_b",
+   "text": "[happy children cheering together] Everyone gets a turn!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "e3",
+   "text": "[cheerful, excited little child] साथ में मज़ा! Together is fun!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f1",
+   "text": "[cheerful, excited little child] शाबाश! कल फिर मिलेंगे!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f2",
+   "text": "[squeaky, playful, fast little voice] See you tomorrow! Tomorrow!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  }
+ ]
+}
