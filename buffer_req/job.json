@@ -1,46 +1,16 @@
 {
- "job": "count_1124_1795434130",
+ "job": "fbimg_test_1795453428",
  "action": "post",
  "posts": [
   {
-   "channelId": "6b03d7e48541f09ecb7188b5",
-   "text": "गिनती 1 से 10 🎈 Count to 10 with Golu! एक, दो, तीन… and then Golu FLIES away! 🐘\nHindi + English counting for toddlers. अपने बच्चे को दिखाइए 👶 Share with a parent!\n\n#Ginti #CountingForKids #KidsLearning #HindiRhymes #बच्चोंकीकविता",
-   "dueAt": "2026-11-24T07:30:00.000Z",
-   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4",
-   "extra": {
-    "metadata": {
-     "instagram": {
-      "type": "reel",
-      "shouldShareToFeed": true,
-      "isAiGenerated": true
-     }
-    }
-   }
-  },
-  {
-   "channelId": "6b03d7e48541f09ecb7188b5",
-   "text": "",
-   "dueAt": "2026-11-24T07:35:00.000Z",
-   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4",
-   "extra": {
-    "metadata": {
-     "instagram": {
-      "type": "story",
-      "shouldShareToFeed": false,
-      "isAiGenerated": true
-     }
-    }
-   }
-  },
-  {
    "channelId": "6b03d8178541f09ecb718f64",
-   "text": "गिनती 1 से 10 | Counting 1 to 10 for Kids — Golu & Dost\n\nएक, दो, तीन… 10 balloons and Golu flies up, up, up! 🎈 अपने बच्चे को दिखाइए 👶 Share with a parent!\nMore: https://www.youtube.com/@golu_dost1\n#Ginti #CountingForKids #KidsLearning #ToddlerLearning",
-   "dueAt": "2026-11-24T07:30:00.000Z",
-   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4",
+   "text": "कितने गुब्बारे? 🎈 How many balloons can your child count?\n\nबच्चे से गिनवाइए और जवाब Comment में लिखिए! 👇\nCount with Golu ➜ https://www.youtube.com/@golu_dost1\n#CountingForKids #KidsQuiz #गिनती",
+   "dueAt": "2026-11-24T02:30:00.000Z",
+   "image_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_1.jpg",
    "extra": {
     "metadata": {
      "facebook": {
-      "type": "reel"
+      "type": "post"
      }
     }
    }
