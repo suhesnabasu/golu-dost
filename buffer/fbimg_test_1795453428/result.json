@@ -1,0 +1,41 @@
+{
+ "job": "fbimg_test_1795453428",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "image": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_1.jpg"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T02:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "post"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b0472002c57a0daa45f136e",
+        "dueAt": "2026-11-24T02:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
