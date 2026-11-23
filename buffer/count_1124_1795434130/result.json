@@ -1,0 +1,115 @@
+{
+ "job": "count_1124_1795434130",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T07:30:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "reel",
+      "shouldShareToFeed": true,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b0426a021a0f649aa4b1607",
+        "dueAt": "2026-11-24T07:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T07:35:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "story",
+      "shouldShareToFeed": false,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b0426a001adccb6f539cca2",
+        "dueAt": "2026-11-24T07:35:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Counting_1_to_10_Golu.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T07:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "reel"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b0426a001adccb6f539ccd7",
+        "dueAt": "2026-11-24T07:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
