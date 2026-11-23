@@ -1,0 +1,81 @@
+{
+ "job": "ep007_pending_1123e",
+ "results": [
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-11-24T05:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ep007_pending_1123e_1Pawrtpx.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b04213701adccb6f5372eeb",
+        "dueAt": "2026-11-24T05:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d7e48541f09ecb7188b5",
+   "dueAt": "2026-11-24T05:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ep007_pending_1123e_1Pawrtpx.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b042137d3122c0b6a5611cb",
+        "dueAt": "2026-11-24T05:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d7e48541f09ecb7188b5",
+   "dueAt": "2026-11-24T05:35:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ep007_pending_1123e_1Pawrtpx.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b042138d3122c0b6a561207",
+        "dueAt": "2026-11-24T05:35:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-24T05:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ep007_pending_1123e_1Pawrtpx.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b042138451a68a17f8e8b5a",
+        "dueAt": "2026-11-24T05:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
