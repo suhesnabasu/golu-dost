@@ -1,0 +1,36 @@
+{
+ "job": "del1",
+ "key_present": true,
+ "raw": [
+  [
+   200,
+   {
+    "data": {
+     "deletePost": {
+      "__typename": "DeletePostSuccess"
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "deletePost": {
+      "__typename": "DeletePostSuccess"
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "deletePost": {
+      "__typename": "DeletePostSuccess"
+     }
+    }
+   }
+  ]
+ ]
+}
