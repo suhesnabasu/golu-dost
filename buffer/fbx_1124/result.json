@@ -1,0 +1,35 @@
+{
+ "job": "fbx_1124",
+ "results": [
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-24T03:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbx_1124_1_Ur0bll.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-24T15:00:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbx_1124_1gYQ41nP.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
