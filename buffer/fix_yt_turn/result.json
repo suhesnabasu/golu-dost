@@ -1,0 +1,82 @@
+{
+ "job": "fix_yt_turn",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8468541f09ecb7195b7",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://static.metricool.com/planner/202611/8255605-file-15393375699810120659.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-23T12:30:00.000Z",
+    "metadata": {
+     "youtube": {
+      "title": "बारी-बारी 🛝 Wait Your Turn | Moral Story for Kids in Hindi #shorts",
+      "madeForKids": true,
+      "privacy": "public",
+      "categoryId": "27",
+      "notifySubscribers": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b03dd06d864a01105286ba1",
+        "dueAt": "2026-11-23T12:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/test_brush.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-23T07:15:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "story",
+      "shouldShareToFeed": false,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b03dd06a6de38de9ec47d11",
+        "dueAt": "2026-11-23T07:15:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
