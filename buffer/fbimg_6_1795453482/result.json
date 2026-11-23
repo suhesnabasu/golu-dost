@@ -1,0 +1,212 @@
+{
+ "job": "fbimg_6_1795453482",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "image": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_2.jpg"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T04:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "post"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b047236a6621f388ce5802a",
+        "dueAt": "2026-11-24T04:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "image": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_4.jpg"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T06:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "post"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b0472372c57a0daa45f49c9",
+        "dueAt": "2026-11-24T06:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "image": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_5.jpg"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T10:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "post"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b047237a6621f388ce58062",
+        "dueAt": "2026-11-24T10:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "image": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_6.jpg"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T14:00:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "post"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b0472386b0f5eaba88e514a",
+        "dueAt": "2026-11-24T14:00:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "image": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_7.jpg"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T16:00:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "post"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b047238cbe2b99010d9aa06",
+        "dueAt": "2026-11-24T16:00:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "image": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_3.jpg"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-25T04:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "post"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
