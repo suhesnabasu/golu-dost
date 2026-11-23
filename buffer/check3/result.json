@@ -1,0 +1,51 @@
+{
+ "job": "check3",
+ "key_present": true,
+ "raw": [
+  [
+   200,
+   {
+    "data": {
+     "post": {
+      "id": "6b03dd06a6de38de9ec47d11",
+      "status": "sent",
+      "channelService": "instagram",
+      "sentAt": "2026-11-23T07:18:13.153Z",
+      "externalLink": "https://www.instagram.com/stories/____golu__dost/4036582471638175222",
+      "error": null
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "post": {
+      "id": "6b03dbab846b0ee907eb9a5b",
+      "status": "sent",
+      "channelService": "instagram",
+      "sentAt": "2026-11-23T06:55:57.054Z",
+      "externalLink": "https://www.instagram.com/stories/____golu__dost/4036572012896950036",
+      "error": null
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "post": {
+      "id": "6b03dbac846b0ee907eb9aa3",
+      "status": "scheduled",
+      "channelService": "facebook",
+      "sentAt": null,
+      "externalLink": null,
+      "error": null
+     }
+    }
+   }
+  ]
+ ]
+}
