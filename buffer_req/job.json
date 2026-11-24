@@ -1,8 +1,19 @@
 {
- "job": "plan1124_1795493562",
- "action": "raw",
- "queries": [
-  "query { posts(first: 60, input:{organizationId:\"6b03d77b07e3daab80249d80\", filter:{status:[scheduled]}, sort:[{field: dueAt, direction: asc}]}) { edges { node { dueAt channelService text } } } }",
-  "query { posts(first: 60, input:{organizationId:\"6b03d77b07e3daab80249d82\", filter:{status:[scheduled]}, sort:[{field: dueAt, direction: asc}]}) { edges { node { dueAt channelService text } } } }"
+ "job": "fbimg_fix1_1795495425",
+ "action": "post",
+ "posts": [
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "text": "कितने गुब्बारे? 🎈 How many balloons can your child count?\n\nबच्चे से गिनवाइए और जवाब Comment में लिखिए! 👇\nCount with Golu ➜ https://www.youtube.com/@golu_dost1\n#CountingForKids #KidsQuiz #गिनती",
+   "dueAt": "2026-11-24T05:00:00.000Z",
+   "image_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbq_20261124_1_fixed.jpg",
+   "extra": {
+    "metadata": {
+     "facebook": {
+      "type": "post"
+     }
+    }
+   }
+  }
  ]
 }
