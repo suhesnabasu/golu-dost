@@ -1,0 +1,43 @@
+{
+ "job": "remix_1125",
+ "results": [
+  {
+   "channelId": "6b03d7e48541f09ecb7188b5",
+   "dueAt": "2026-11-25T09:00:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/remix_1125_1xxvkDzT.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b05b1fff32a3bc0e4e92bbd",
+        "dueAt": "2026-11-25T09:00:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-25T09:00:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/remix_1125_1xxvkDzT.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b05b1fff32a3bc0e4e92bee",
+        "dueAt": "2026-11-25T09:00:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
