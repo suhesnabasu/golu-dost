@@ -1,0 +1,78 @@
+{
+ "job": "guesswho_1124_1795531156",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Golu_Friends_Guess_Who.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T15:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "reel"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b05a1a99700037ebb085984",
+        "dueAt": "2026-11-24T15:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Golu_Friends_Guess_Who.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T15:30:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "reel",
+      "shouldShareToFeed": true,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b05a1a9c1a98fcd4c193886",
+        "dueAt": "2026-11-24T15:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
