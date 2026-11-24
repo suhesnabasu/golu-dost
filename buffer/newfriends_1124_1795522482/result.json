@@ -1,0 +1,115 @@
+{
+ "job": "newfriends_1124_1795522482",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Golu_New_Friends_Laddoo_Tower.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T13:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "reel"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b057fc235d19879be28f2d9",
+        "dueAt": "2026-11-24T13:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Golu_New_Friends_Laddoo_Tower.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T13:30:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "reel",
+      "shouldShareToFeed": true,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b057fc3d280bf495ba7c325",
+        "dueAt": "2026-11-24T13:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Golu_New_Friends_Laddoo_Tower.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-24T13:35:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "story",
+      "shouldShareToFeed": false,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b057fc3f6a22c1e50eb1e4b",
+        "dueAt": "2026-11-24T13:35:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
