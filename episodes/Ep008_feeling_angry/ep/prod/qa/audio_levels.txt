@@ -1,0 +1,26 @@
+Mix: loudnorm -14 LUFS integrated (measured -14.4 LUFS), TP -1 dB. Kids x1.5, music ducks 70% under voices; music 45% crash..breath, 28% during breathing.
+
+RMS dBFS per voice line (voice+bed) vs the 0.3 s gap before it (bed only):
+a1: line -13.9 dB | gap before -12.5 dB
+a2: line -12.9 dB | gap before -16.9 dB
+a3: line -12.9 dB | gap before -9.2 dB
+b1: line -11.9 dB | gap before -16.1 dB
+b2: line -14.4 dB | gap before -13.1 dB
+b3: line -12.8 dB | gap before -20.0 dB
+c1: line -14.1 dB | gap before -26.6 dB
+c2: line -13.7 dB | gap before -25.5 dB
+c3: line -12.6 dB | gap before -24.3 dB
+d1: line -14.6 dB | gap before -29.7 dB
+d2: line -14.6 dB | gap before -30.1 dB
+d3: line -13.2 dB | gap before -38.6 dB
+d4: line -13.6 dB | gap before -29.9 dB
+e1: line -14.5 dB | gap before -19.0 dB
+e2b: line -13.3 dB | gap before -16.5 dB
+e2c: line -12.8 dB | gap before -11.4 dB
+e3: line -14.1 dB | gap before -22.2 dB
+e4: line -13.6 dB | gap before -17.3 dB
+f1a: line -14.8 dB | gap before -15.6 dB
+f1b: line -14.5 dB | gap before -17.5 dB
+f2: line -14.0 dB | gap before -21.2 dB
+g1: line -15.5 dB | gap before -21.0 dB
+g2: line -15.2 dB | gap before -14.9 dB

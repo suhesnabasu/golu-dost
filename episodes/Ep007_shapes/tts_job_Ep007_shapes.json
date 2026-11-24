@@ -1,0 +1,171 @@
+{
+ "engine": "fish",
+ "model": "s2.1-pro-free",
+ "lines": [
+  {
+   "id": "a1",
+   "text": "[cheerful, excited little child] अरे! मेरी रोटी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a2",
+   "text": "[squeaky, playful, fast little voice] टोपी! टोपी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b1",
+   "text": "[cheerful, excited little child] चलो, आकार सीखें!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b2",
+   "text": "[squeaky, playful, fast little voice] Shapes! Shapes!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c1",
+   "text": "[cheerful, excited little child] रोटी गोल है। गोल!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c2",
+   "text": "[squeaky, playful, fast little voice] Circle! Circle!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3a_a",
+   "text": "[happy children cheering together] गोल!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3a_b",
+   "text": "[happy children cheering together] गोल!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c3b_a",
+   "text": "[happy children cheering together] Circle!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3b_b",
+   "text": "[happy children cheering together] Circle!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d1",
+   "text": "[cheerful, excited little child] बिस्कुट चौकोर है। चौकोर!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d2_a",
+   "text": "[happy children cheering together] एक, दो, तीन, चार!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d2_b",
+   "text": "[happy children cheering together] एक, दो, तीन, चार!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d3",
+   "text": "[squeaky, playful, fast little voice] Square! Square!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d4a_a",
+   "text": "[happy children cheering together] चौकोर!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d4a_b",
+   "text": "[happy children cheering together] चौकोर!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d4b_a",
+   "text": "[happy children cheering together] Square!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d4b_b",
+   "text": "[happy children cheering together] Square!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "e1",
+   "text": "[cheerful, excited little child] समोसा तिकोना है। तिकोना!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e2_a",
+   "text": "[happy children cheering together] एक, दो, तीन!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e2_b",
+   "text": "[happy children cheering together] एक, दो, तीन!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "e3",
+   "text": "[squeaky, playful, fast little voice] Triangle! Triangle!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e4a_a",
+   "text": "[happy children cheering together] तिकोना!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e4a_b",
+   "text": "[happy children cheering together] तिकोना!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "e4b_a",
+   "text": "[happy children cheering together] Triangle!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e4b_b",
+   "text": "[happy children cheering together] Triangle!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "f1",
+   "text": "[cheerful, excited little child] चलो फिर से!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f2_a",
+   "text": "[happy children cheering together] गोल, चौकोर, तिकोना!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f2_b",
+   "text": "[happy children cheering together] गोल, चौकोर, तिकोना!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "f3_a",
+   "text": "[happy children cheering together] Circle, Square, Triangle!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f3_b",
+   "text": "[happy children cheering together] Circle, Square, Triangle!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "g1",
+   "text": "[cheerful, excited little child] शाबाश! कल फिर मिलेंगे!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "g2",
+   "text": "[squeaky, playful, fast little voice] See you tomorrow! Tomorrow!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  }
+ ]
+}
