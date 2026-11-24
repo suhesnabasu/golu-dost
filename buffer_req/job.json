@@ -1,8 +1,8 @@
 {
- "job": "chinfo_1795458954",
+ "job": "plan1124_1795493562",
  "action": "raw",
  "queries": [
-  "query { channel(input:{id:\"6b03d8178541f09ecb718f64\"}) { name displayName service serviceId } }",
-  "query { channel(input:{id:\"6b03d7e48541f09ecb7188b5\"}) { name displayName service serviceId } }"
+  "query { posts(first: 60, input:{organizationId:\"6b03d77b07e3daab80249d80\", filter:{status:[scheduled]}, sort:[{field: dueAt, direction: asc}]}) { edges { node { dueAt channelService text } } } }",
+  "query { posts(first: 60, input:{organizationId:\"6b03d77b07e3daab80249d82\", filter:{status:[scheduled]}, sort:[{field: dueAt, direction: asc}]}) { edges { node { dueAt channelService text } } } }"
  ]
 }
