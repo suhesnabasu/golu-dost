@@ -1,0 +1,81 @@
+{
+ "job": "wsquiz1125_1795591700",
+ "results": [
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-25T11:00:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/wsquiz1125_1795591700_1s8Osp3g.jpg",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b068e1ad8874a038c00b0e7",
+        "dueAt": "2026-11-25T11:00:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d7e48541f09ecb7188b5",
+   "dueAt": "2026-11-25T11:00:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/wsquiz1125_1795591700_1s8Osp3g.jpg",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b068e1a22dfb7833a8d65e0",
+        "dueAt": "2026-11-25T11:00:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-25T11:45:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/wsquiz1125_1795591700_1V70GIEv.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b068e1fd8874a038c00b2ba",
+        "dueAt": "2026-11-25T11:45:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d7e48541f09ecb7188b5",
+   "dueAt": "2026-11-25T11:45:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/wsquiz1125_1795591700_1V70GIEv.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b068e20c68d7845a48f794d",
+        "dueAt": "2026-11-25T11:45:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
