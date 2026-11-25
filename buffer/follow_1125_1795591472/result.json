@@ -1,0 +1,115 @@
+{
+ "job": "follow_1125_1795591472",
+ "key_present": true,
+ "results": [
+  {
+   "in": {
+    "channelId": "6b03d8178541f09ecb718f64",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Golu_Follow_Subscribe.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-25T09:30:00.000Z",
+    "metadata": {
+     "facebook": {
+      "type": "reel"
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b068d3e40e1d58d120a3fca",
+        "dueAt": "2026-11-25T09:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Golu_Follow_Subscribe.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-25T09:30:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "reel",
+      "shouldShareToFeed": true,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b068d3ed8874a038c005c7d",
+        "dueAt": "2026-11-25T09:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "in": {
+    "channelId": "6b03d7e48541f09ecb7188b5",
+    "schedulingType": "automatic",
+    "needsApproval": false,
+    "assets": [
+     {
+      "video": {
+       "url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/Golu_Follow_Subscribe.mp4"
+      }
+     }
+    ],
+    "mode": "customScheduled",
+    "dueAt": "2026-11-25T09:35:00.000Z",
+    "metadata": {
+     "instagram": {
+      "type": "story",
+      "shouldShareToFeed": false,
+      "isAiGenerated": true
+     }
+    }
+   },
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b068d3fd8874a038c005caf",
+        "dueAt": "2026-11-25T09:35:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
