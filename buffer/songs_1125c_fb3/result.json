@@ -1,0 +1,20 @@
+{
+ "job": "songs_1125c_fb3",
+ "results": [
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-28T04:00:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/songs_1125c_fb3_18Z0SVPH.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
