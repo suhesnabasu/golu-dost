@@ -1,0 +1,129 @@
+{
+ "job": "ytgangs_1125",
+ "results": [
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-11-25T09:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ytgangs_1125_1zkRrqCD.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b0687dbd8874a038cfdacb6",
+        "dueAt": "2026-11-25T09:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-11-26T09:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ytgangs_1125_1PlbXWj2.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Invalid post: Video must be vertical or square for YouTube Shorts."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-11-27T09:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ytgangs_1125_1yF58Mzo.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Invalid post: Video must be vertical or square for YouTube Shorts."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-11-28T09:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ytgangs_1125_1B-acioz.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Invalid post: Video must be vertical or square for YouTube Shorts."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-11-29T09:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ytgangs_1125_1YpcXOJF.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Invalid post: Video must be vertical or square for YouTube Shorts."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-11-30T09:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ytgangs_1125_1lbxoBWs.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Invalid post: Video must be vertical or square for YouTube Shorts."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-12-01T09:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ytgangs_1125_1Cmtru1N.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Invalid post: Video must be vertical or square for YouTube Shorts."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8468541f09ecb7195b7",
+   "dueAt": "2026-12-02T09:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/ytgangs_1125_1jGlAGIa.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Invalid post: Video must be vertical or square for YouTube Shorts."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
