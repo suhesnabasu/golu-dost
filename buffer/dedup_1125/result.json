@@ -1,0 +1,46 @@
+{
+ "job": "dedup_1125",
+ "results": [],
+ "raw": [
+  [
+   200,
+   {
+    "data": {
+     "deletePost": {
+      "__typename": "DeletePostSuccess"
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "deletePost": {
+      "__typename": "DeletePostSuccess"
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "deletePost": {
+      "__typename": "DeletePostSuccess"
+     }
+    }
+   }
+  ],
+  [
+   200,
+   {
+    "data": {
+     "posts": {
+      "edges": []
+     }
+    }
+   }
+  ]
+ ]
+}
