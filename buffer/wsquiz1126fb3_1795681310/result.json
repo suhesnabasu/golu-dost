@@ -1,0 +1,24 @@
+{
+ "job": "wsquiz1126fb3_1795681310",
+ "results": [
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-26T11:45:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/wsquiz1126fb3_1795681310_1YBVVxWu.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b07eea5f13f49a925a57224",
+        "dueAt": "2026-11-26T11:45:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
