@@ -1,0 +1,3 @@
+    I:         -15.0 LUFS
+    Peak:       -1.6 dBFS
+measured, not heard; voices duck music 55%, SFX 0.25-0.4

@@ -1,0 +1,166 @@
+{
+ "engine": "fish",
+ "model": "s2.1-pro-free",
+ "lines": [
+  {
+   "id": "a1",
+   "text": "[cheerful, excited little child] पों पों!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a2",
+   "text": "[squeaky, playful, fast little voice] ज़ूम! ज़ूम!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b1",
+   "text": "[cheerful, excited little child] चलो, नई गाड़ियाँ सीखें!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c1",
+   "text": "[cheerful, excited little child] हवाई जहाज़! ज़ूम!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c2",
+   "text": "[squeaky, playful, fast little voice] Aeroplane! Aeroplane!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3_a",
+   "text": "[happy children cheering together] हवाई जहाज़! Aeroplane! Zoom zoom!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3_b",
+   "text": "[happy children cheering together] हवाई जहाज़! Aeroplane! Zoom zoom!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d1",
+   "text": "[cheerful, excited little child] एम्बुलेंस! वी वू, वी वू!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d2",
+   "text": "[squeaky, playful, fast little voice] Ambulance! Ambulance!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d3_a",
+   "text": "[happy children cheering together] एम्बुलेंस! Ambulance! Wee woo!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d3_b",
+   "text": "[happy children cheering together] एम्बुलेंस! Ambulance! Wee woo!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "e1",
+   "text": "[cheerful, excited little child] खुदाई मशीन! घर्र घर्र!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e2",
+   "text": "[squeaky, playful, fast little voice] Digger! Digger!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e3_a",
+   "text": "[happy children cheering together] खुदाई मशीन! Digger! Rumble rumble!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e3_b",
+   "text": "[happy children cheering together] खुदाई मशीन! Digger! Rumble rumble!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "e4",
+   "text": "[squeaky, playful, fast little voice] मेरी टोपी! मेरी टोपी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f1",
+   "text": "[cheerful, excited little child] ऑटो रिक्शा! पट पट!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f2",
+   "text": "[squeaky, playful, fast little voice] Auto rickshaw! Auto rickshaw!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f3_a",
+   "text": "[happy children cheering together] ऑटो रिक्शा! Putt putt!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f3_b",
+   "text": "[happy children cheering together] ऑटो रिक्शा! Putt putt!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "g0",
+   "text": "[sweet, soft, giggly little girl] मेरी बारी?",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "g1",
+   "text": "[cheerful, excited little child] हाँ, बनी! चलो फिर से!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "h1_a",
+   "text": "[happy children cheering together] हवाई जहाज़, एम्बुलेंस!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "h1_b",
+   "text": "[happy children cheering together] हवाई जहाज़, एम्बुलेंस!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "h2_a",
+   "text": "[happy children cheering together] खुदाई मशीन, ऑटो रिक्शा!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "h2_b",
+   "text": "[happy children cheering together] खुदाई मशीन, ऑटो रिक्शा!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "h3_a",
+   "text": "[happy children cheering together] Aeroplane, ambulance!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "h3_b",
+   "text": "[happy children cheering together] Aeroplane, ambulance!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "h4_a",
+   "text": "[happy children cheering together] Digger, auto rickshaw!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "h4_b",
+   "text": "[happy children cheering together] Digger, auto rickshaw!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "k1",
+   "text": "[cheerful, excited little child] कल फिर मिलेंगे!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "k2",
+   "text": "[squeaky, playful, fast little voice] See you tomorrow! Tomorrow!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  }
+ ]
+}

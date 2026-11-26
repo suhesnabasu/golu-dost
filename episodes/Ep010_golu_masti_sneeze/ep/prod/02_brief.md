@@ -1,0 +1,11 @@
+# Ep 10 — Brief (Stage 2)
+- **Title:** Golu Masti #1 😂 गोलू की छींक | Golu's Big Sneeze #shorts  (series badge "गोलू मस्ती #1 · Golu Masti #1")
+- **Type:** Golu Masti — silent slapstick (Wednesday evening slot). No spoken words: only "आ… आ…", sneezes, gasps, giggles, laughs + SFX. Different type from the morning slot (Ep9 = learning/vehicles).
+- **Setting:** the park (Ep6 set: neem tree, swing, sandpit, slide removed) on a winter morning — fallen yellow/orange leaves, a leaf pile on the left, a tree stump on the right (Mithu's perch). Light morning haze.
+- **Cast:** Golu (centre), Pari (left) & Chintu (right) at the sides, Mithu on the stump, Bunny (zooms in from the left, lands in the leaf pile). One gang guest: none.
+- **Gag (one physical gag, 5 beats):** setup — Mithu's loose feather floats onto Golu's trunk → "आ… आ…" → mishap: ACHOO! the gust spins Mithu and a leaf lands on his head (his hat gag) → bigger mishap: feather again, mega ACHOO!! just as Bunny zooms in too fast — she is blown into the soft leaf pile and pops out with leaves on her ears → twist: third tickle, everyone ducks… Golu tucks his trunk into his scarf: a tiny muffled "छी!" and only a little puff → everyone laughs → loop.
+- **Learning / emotional beat:** cover your sneeze (winter habit) shown, not told; small bilingual card "छींक आए तो ढको! / Cover your sneeze!". Feeling: anticipation → surprise → relief → shared laughter.
+- **Running gags:** Mithu "मेरी टोपी!" hat (leaf hat = 3rd hat), Mithu repeats twice ("ओह-हो! ओह-हो!", "हा हा! हा हा!"), Bunny arrives too fast, Golu laughs with happy closed eyes, comic surprise in the first second.
+- **Callbacks:** Ep9 gust take (ears flap), Ep8/Ep9 Mithu hats, Ep6 park set, Bunny's arc (she arrives too fast but laughs it off).
+- **Length:** ~25 s. **Loop:** the feather floats back down to Golu's trunk and the "आ… आ…" card returns = frame 1.
+- **Safety:** nobody hurt (Bunny lands in soft leaves, giggling), no germs shown, healthy habit modelled.

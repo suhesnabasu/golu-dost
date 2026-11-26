@@ -1,0 +1,7 @@
+# Ep 9 — Animation & build (Stage 9)
+- Built from Ep5's railway-crossing composition (gen_episode.py) with the series template cast (GOLU v2 + Ep8 scarf bow-knot patch, KIDS, f3d), Ep8 glossy Mithu (+ new sand-hat #m-hat) and Ep8 Bunny v2.
+- New props in props.py (aeroplane with spinning propeller, ambulance with heart emblem + flashing beacon, digger with pivoting arm #darm and sand bucket, auto-rickshaw with exhaust puffs); prop sheet prod/05_propsheet.png.
+- Acting (HyperFrames types/character.md): anticipation-squash on every jump, ears flap offset (never in unison), gust take on the plane (ears flare + flutter, lean, squint, elastic settle), eyes look at each vehicle, trunk points up at the plane / siren wiggle / horn pumps, Mithu squash when the hat lands, Bunny skid + ear follow-through + folded paws while waiting; blinks every ~3.4 s offset per character; Golu + Bunny lip-sync by toggling pre-drawn mouths with svgOrigin (never CSS transform-origin).
+- Beat grid 120 bpm: body bounce/head sway/flowers on the beat; every card lands with a punch-in + pop.
+- hyperframes@0.9.72 check: 0 errors (warnings: sub-composition structure, two 0.01 s arm-tween overlaps, intentional 0.3 s loop card). Snapshots: qa/contact-sheet-1.jpg, -2.jpg; final vet sheets qa/final_vet_*.jpg.
+- HyperFrames skills installed this run (npx skills add heygen-com/hyperframes --all); read SKILL.md, references/types/character.md, types/vertical.md, motion.md, sound.md, captions.md.

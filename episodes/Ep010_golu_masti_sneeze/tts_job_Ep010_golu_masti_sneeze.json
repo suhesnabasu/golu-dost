@@ -1,0 +1,76 @@
+{
+ "engine": "fish",
+ "model": "s2.1-pro-free",
+ "lines": [
+  {
+   "id": "a1",
+   "text": "[cheerful, excited little child] आ… आ…",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a2",
+   "text": "[cheerful, excited little child] [big sneeze] आ-छी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "m1",
+   "text": "[squeaky, playful, fast little voice] ओह-हो! ओह-हो!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b1",
+   "text": "[cheerful, excited little child] आ… आ… आ…",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b2",
+   "text": "[cheerful, excited little child] [huge sneeze] आ-आ-छी!!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "bn",
+   "text": "[sweet, soft, giggly little girl] [giggles] वी-ई-ई!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "k1_a",
+   "text": "[happy children cheering together] [gasps] उह-ओह!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "k1_b",
+   "text": "[happy children cheering together] [gasps] उह-ओह!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c1",
+   "text": "[cheerful, excited little child] आ… आ…",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c2",
+   "text": "[cheerful, excited little child] [tiny muffled sneeze] छी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "g1",
+   "text": "[cheerful, excited little child] [giggles] ही ही ही!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "k2_a",
+   "text": "[happy children cheering together] [laughing] हा हा हा!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "k2_b",
+   "text": "[happy children cheering together] [laughing] हा हा हा!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "m2",
+   "text": "[squeaky, playful, fast little voice] हा हा! हा हा!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  }
+ ]
+}
