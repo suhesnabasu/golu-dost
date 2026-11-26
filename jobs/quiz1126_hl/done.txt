@@ -1,0 +1,10 @@
+ok qi
+ok q0
+ok a0
+ok q1
+ok a1
+ok q2
+ok a2
+ok q3
+ok a3
+ok qo
