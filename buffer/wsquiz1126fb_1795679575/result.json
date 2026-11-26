@@ -1,0 +1,20 @@
+{
+ "job": "wsquiz1126fb_1795679575",
+ "results": [
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-26T11:45:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/wsquiz1126fb_1795679575_1YBVVxWu.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
