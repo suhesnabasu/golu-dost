@@ -1,0 +1,54 @@
+{
+ "job": "pending_1126e_r2",
+ "results": [
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-27T06:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/pending_1126e_r2_17AspkB6.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b082354d82636cd03d3bb9f",
+        "dueAt": "2026-11-27T06:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-26T15:00:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/pending_1126e_r2_1nO9qiMr.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-11-28T04:00:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/pending_1126e_r2_18Z0SVPH.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
