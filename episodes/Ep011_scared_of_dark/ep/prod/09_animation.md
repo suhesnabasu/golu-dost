@@ -1,0 +1,3 @@
+# Stage 9 — Animation & build — Ep11
+build/gen_episode.py (from src_Ep008 + template cast) → proj/index.html; `hyperframes check`: 0 errors (warnings: minor tween overlaps on idle ears/head, file size). Snapshots at every shot change checked (contact sheets in prod/qa). Fixes during build: Bunny visible below the toy box while hidden → clip-path #clipBun; vertical speed lines visible at start → hidden by default; close-up zoom reduced (1.14→1.08) so Pari is not cut at the left edge; sockf fromTo given an opacity destination (StaticGuard).
+Acting: gasp/scared/breath/brave takes with anticipation-squash-settle; ears offset; blinks offset per character; lip-sync by pre-drawn mouth toggles with svgOrigin (Golu, Bunny), kids mouth swaps, Mithu jaw.

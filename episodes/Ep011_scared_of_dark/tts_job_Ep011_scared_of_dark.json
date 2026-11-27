@@ -1,0 +1,136 @@
+{
+ "engine": "fish",
+ "model": "s2.1-pro-free",
+ "lines": [
+  {
+   "id": "a1",
+   "text": "[squeaky, playful, fast little voice] क्लिक! क्लिक!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a2",
+   "text": "[cheerful, excited little child] अरे! वो क्या है?",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a3",
+   "text": "[squeaky, playful, fast little voice] Shadow? Shadow?",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b1",
+   "text": "[cheerful, excited little child] मुझे डर लग रहा है!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b2_a",
+   "text": "[happy children cheering together] Golu is scared!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b2_b",
+   "text": "[happy children cheering together] Golu is scared!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c1_a",
+   "text": "[happy children cheering together] डरना ठीक है, गोलू! हम साथ हैं!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c1_b",
+   "text": "[happy children cheering together] डरना ठीक है, गोलू! हम साथ हैं!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c2_a",
+   "text": "[happy children cheering together] It's okay to be scared!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c2_b",
+   "text": "[happy children cheering together] It's okay to be scared!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c3",
+   "text": "[cheerful, excited little child] टॉर्च! चलो, साथ में देखें!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d1_a",
+   "text": "[happy children cheering together] एक, दो, तीन… रोशनी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d1_b",
+   "text": "[happy children cheering together] एक, दो, तीन… रोशनी!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d2",
+   "text": "[sweet, soft, giggly little girl] मैं बनी! मुझे भी डर लगा!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "d3",
+   "text": "[cheerful, excited little child] अरे, ये तो बनी के कान!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "d4",
+   "text": "[squeaky, playful, fast little voice] मेरी टोपी! मेरी टोपी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e1",
+   "text": "[cheerful, excited little child] रात का लैंप — Night light!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e2",
+   "text": "[cheerful, excited little child] टेडी को गले लगाओ!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e3",
+   "text": "[cheerful, excited little child] मैं बहादुर हूँ!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e4_a",
+   "text": "[happy children cheering together] I am brave!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "e4_b",
+   "text": "[happy children cheering together] I am brave!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "f1",
+   "text": "[cheerful, excited little child] डर लगे? बताओ, रोशनी करो!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f2_a",
+   "text": "[happy children cheering together] Tell someone! Turn on a light!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "f2_b",
+   "text": "[happy children cheering together] Tell someone! Turn on a light!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "g1",
+   "text": "[cheerful, excited little child] शुभ रात्रि! कल फिर मिलेंगे!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "g2",
+   "text": "[squeaky, playful, fast little voice] Good night! Good night!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  }
+ ]
+}
