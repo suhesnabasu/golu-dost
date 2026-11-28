@@ -1,0 +1,98 @@
+{
+ "s1": {
+  "role": "nar",
+  "dur": 1.62
+ },
+ "q1": {
+  "role": "golu",
+  "dur": 1.36
+ },
+ "b1": {
+  "role": "bunny",
+  "dur": 0.35
+ },
+ "c1": {
+  "role": "golu",
+  "dur": 2.12
+ },
+ "r1": {
+  "role": "golu",
+  "dur": 0.97
+ },
+ "m1": {
+  "role": "mithu",
+  "dur": 1.6
+ },
+ "a1": {
+  "role": "kids",
+  "dur": 1.56
+ },
+ "s2": {
+  "role": "nar",
+  "dur": 1.36
+ },
+ "b2": {
+  "role": "bunny",
+  "dur": 0.66
+ },
+ "c2": {
+  "role": "golu",
+  "dur": 1.65
+ },
+ "c3": {
+  "role": "golu",
+  "dur": 0.83
+ },
+ "r2": {
+  "role": "golu",
+  "dur": 0.63
+ },
+ "m2": {
+  "role": "mithu",
+  "dur": 1.58
+ },
+ "a2": {
+  "role": "kids",
+  "dur": 2.19
+ },
+ "s3": {
+  "role": "nar",
+  "dur": 1.53
+ },
+ "b3a": {
+  "role": "bunny",
+  "dur": 0.63
+ },
+ "c4": {
+  "role": "golu",
+  "dur": 2.8
+ },
+ "b3b": {
+  "role": "bunny",
+  "dur": 0.9
+ },
+ "r3": {
+  "role": "golu",
+  "dur": 3.47
+ },
+ "m3": {
+  "role": "mithu",
+  "dur": 1.13
+ },
+ "a3": {
+  "role": "kids",
+  "dur": 1.49
+ },
+ "k2": {
+  "role": "kids",
+  "dur": 1.95
+ },
+ "g2": {
+  "role": "golu",
+  "dur": 1.5
+ },
+ "g3": {
+  "role": "mithu",
+  "dur": 2.29
+ }
+}

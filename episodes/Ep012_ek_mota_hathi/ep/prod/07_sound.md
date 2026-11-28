@@ -1,0 +1,7 @@
+# Ep12 — Stage 7 Music & sound plan
+- Song: music_gm.make_song seed **41**, prog_id 0 (I–V–vi–IV, C major), 120 bpm (beat 0.5 s), xylophone lead + glockenspiel sparkles + nylon guitar + acoustic bass + light kit. An ORIGINAL melody generated from chord tones — not the common Hindi school tune nor any recorded English arrangement (Sharon, Lois & Bram etc.). Golu theme colour = xylophone; chimes (glockenspiel) on Pari's landing, Chintu's landing, Mithu's hat and the recap; finale lift on "शाबाश!".
+- The music "holds its breath" (dips to 35%) on the crouch before the BOING, then opens up.
+- Voices on top: music ducks up to 60% under voice; kids' chorus +3.5 dB; SFX 0.16–0.4; mix loudnorm −14 LUFS, TP −1.
+- SFX (bundled HyperFrames/Pixabay library only): "boing" = pitched-down pop + soft bass thump on every web bounce; pops on badges/words; whoosh-short on the kids' runs in/out; riser into the BIG BOING (once); impact-bass on the landing; sparkle on fun lines + the hat; chime on शाबाश; click-soft on "तुम?" punch-in. Full list with seconds in sfx_cues.json.
+- Gaps the reviewer flagged (≈17.8–20 s, 22–23 s, "तुम?") are filled with bounces/pops/punch-in.
+- Event times (s): {"land0": 0.25, "swing": 4.73, "fun1": 7.38, "call1": 10.17, "pari": 12.930000000000001, "pland": 13.53, "e1": 15.51, "e2": 17.93, "fun2": 20.42, "call2": 22.78, "chintu": 24.68, "cland": 25.28, "count": 27.77, "boing": 30.29, "hat": 31.74, "well": 34.19, "recap": 36.19, "four": 38.39, "you": 40.19, "bye": 42.0, "exit": 43.22, "DUR": 46.25}

@@ -1,0 +1,146 @@
+{
+ "engine": "fish",
+ "model": "s2.1-pro-free",
+ "lines": [
+  {
+   "id": "s1",
+   "text": "[warm, gentle storyteller for small children] म्याऊँ! म्याऊँ!",
+   "voice": "12fe929771554f0085fc1525cd99f5d8"
+  },
+  {
+   "id": "q1",
+   "text": "[cheerful, excited little child] बताओ, कौन?",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b1",
+   "text": "[sweet, soft, giggly little girl] शेर!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c1",
+   "text": "[cheerful, excited little child] ना-ना! मूँछें देखो…",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "r1",
+   "text": "[cheerful, excited little child] बिल्ली!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "m1",
+   "text": "[squeaky, playful, fast little voice] Cat! Cat!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a1_a",
+   "text": "[happy children cheering together] बिल्ली — Cat!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a1_b",
+   "text": "[happy children cheering together] बिल्ली — Cat!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "s2",
+   "text": "[warm, gentle storyteller for small children] मूँ… मूँ!",
+   "voice": "12fe929771554f0085fc1525cd99f5d8"
+  },
+  {
+   "id": "b2",
+   "text": "[sweet, soft, giggly little girl] हाथी!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c2",
+   "text": "[cheerful, excited little child] हाथी तो मैं हूँ!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "c3",
+   "text": "[cheerful, excited little child] सींग देखो…",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "r2",
+   "text": "[cheerful, excited little child] गाय!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "m2",
+   "text": "[squeaky, playful, fast little voice] Cow! Cow!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a2_a",
+   "text": "[happy children cheering together] गाय — Cow!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a2_b",
+   "text": "[happy children cheering together] गाय — Cow!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "s3",
+   "text": "[warm, gentle storyteller for small children] क्वैक! क्वैक!",
+   "voice": "12fe929771554f0085fc1525cd99f5d8"
+  },
+  {
+   "id": "b3a",
+   "text": "[sweet, soft, giggly little girl] मेरी बारी?",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "c4",
+   "text": "[cheerful, excited little child] हाँ, बनी! देखो…",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "b3b",
+   "text": "[sweet, soft, giggly little girl] बत्तख!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "r3",
+   "text": "[cheerful, excited little child] हाँ! बत्तख! शाबाश, बनी!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "m3",
+   "text": "[squeaky, playful, fast little voice] Duck! Duck!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a3_a",
+   "text": "[happy children cheering together] बत्तख — Duck!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "a3_b",
+   "text": "[happy children cheering together] बत्तख — Duck!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "k2_a",
+   "text": "[happy children cheering together] Cat, cow, duck!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "k2_b",
+   "text": "[happy children cheering together] Cat, cow, duck!",
+   "voice": "c65c55c4368a4df791fa40508c588a92"
+  },
+  {
+   "id": "g2",
+   "text": "[cheerful, excited little child] कल फिर मिलेंगे!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  },
+  {
+   "id": "g3",
+   "text": "[squeaky, playful, fast little voice] Tomorrow! Tomorrow!",
+   "voice": "60d36b3f3a804b8fb28583667c3e8b9a"
+  }
+ ]
+}

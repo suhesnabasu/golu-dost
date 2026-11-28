@@ -1,0 +1,6 @@
+# Ep12 — Stage 9 Animation & build
+- gen_episode.py built from Ep10's composition helpers + winter park, template GOLU v2 (+ scarf bow-knot) / KIDS / f3d, Ep8–11 glossy Mithu (+ web-puff hat), NEW spider, web trampoline and paper-ear headbands.
+- Character acting (types/character.md): every bounce = squash (0.12 s) → stretch on the way up → land with ease-in → elastic web settle; the BIG BOING has a 0.3 s crouch anticipation and offset launches (Golu → Pari +0.05 → Chintu +0.1); ears flap offset; eyes look at the spider, at the arriving friends, at Mithu's hat, then into camera for "तुम?"; blinks offset per character; holds after each arrival.
+- Lip-sync: Golu toggles pre-drawn mouth shapes with svgOrigin (never CSS transform-origin); kids toggle .kmouth/.ksmall only on lines they sing and only when on screen.
+- Fixes found in snapshots: kids' paper ears touched Golu's ears → kids moved to x140/x945 and ears narrowed; web "sheen" read as a white glitch → removed; flying web puff crossed the English word → lower arc; number badge numerals overflowed their circle → flex-centred.
+- hyperframes@0.9.72 check: 0 errors (warnings: overlapping web tweens fixed with overwrite:"auto"; offscreen-kid overflow and file-size notes are expected). Snapshots in prod/qa/.

@@ -1,0 +1,7 @@
+# Ep13 animation & build
+- gen_episode.py (this folder) builds index.html from the series template cast (GOLU v2 + scarf bow-knot, f3d), Bunny v2, glossy Mithu, and NEW props: bush (8 glossy clumps + flowers + leaf puff), cat / cow / duck heads, flying duck feather (Mithu's 6th hat), thought bubble "?", red ✗, speed lines.
+- World group shifted up 170 px so all faces sit above the Shorts caption area; animals are clipped below the bush line (clipAn) so nothing peeks out under the bush.
+- Animals live in <g transform=translate(810,1830)><g id=aX> so GSAP y moves are relative (GSAP replaces the translate of a group that has its own transform attribute — learned this run).
+- Acting: Golu idle breathing/ear offsets, trunk points at each clue, happy closed eyes + hop + arm up on every answer, laugh-wobble on "हाथी तो मैं हूँ!"; Bunny zoom-in with overshoot, sad mouth + ✗ on wrong guesses, paw-up wait "मेरी बारी?", happy eyes + stars when right, zooms out at the end (loop = frame 1 without Bunny); Mithu bobs, talks twice per line with wing flaps; everyone mouths the chorus lines.
+- Lip-sync: pre-drawn mouths toggled by opacity, scaleY only with svgOrigin (#g-mouth "-62 -314", #b-mouth "0 -204").
+- hyperframes check: 0 errors, 0 warnings (initial hidden states moved to CSS). Snapshots at 0.3, 3.9, 6.5, 8.2, 16, 18.5, 20, 27.5, 29.5, 32.5, 36.6, 40.2, 42, 45.9 s reviewed; fixes: animals showing under the bush, peek heights (cat whiskers / duck beak visible), Mithu scale .40→.55, scene lifted 170 px.

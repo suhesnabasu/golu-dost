@@ -1,0 +1,97 @@
+{
+ "a1": {
+  "role": "golu",
+  "dur": 2.42,
+  "tempo": 1.2
+ },
+ "m0": {
+  "role": "mithu",
+  "dur": 1.66,
+  "tempo": 1.25
+ },
+ "a2": {
+  "role": "golu",
+  "dur": 2.5,
+  "tempo": 1.2
+ },
+ "a3": {
+  "role": "golu",
+  "dur": 2.64,
+  "tempo": 1.2
+ },
+ "a4": {
+  "role": "golu",
+  "dur": 2.71,
+  "tempo": 1.2
+ },
+ "b1": {
+  "role": "kids",
+  "dur": 1.73,
+  "tempo": 1.08
+ },
+ "e1": {
+  "role": "kids",
+  "dur": 2.27,
+  "tempo": 1.18
+ },
+ "e2": {
+  "role": "kids",
+  "dur": 2.34,
+  "tempo": 1.18
+ },
+ "e3": {
+  "role": "kids",
+  "dur": 2.21,
+  "tempo": 1.18
+ },
+ "e4": {
+  "role": "kids",
+  "dur": 1.85,
+  "tempo": 1.08
+ },
+ "c1": {
+  "role": "kids",
+  "dur": 2.24,
+  "tempo": 1.08
+ },
+ "c2": {
+  "role": "golu",
+  "dur": 2.32,
+  "tempo": 1.08
+ },
+ "m1": {
+  "role": "mithu",
+  "dur": 2.2,
+  "tempo": 1.15
+ },
+ "s1": {
+  "role": "golu",
+  "dur": 1.75,
+  "tempo": 1.08
+ },
+ "d1": {
+  "role": "kids",
+  "dur": 1.9,
+  "tempo": 1.08
+ },
+ "g1": {
+  "role": "golu",
+  "dur": 1.65,
+  "tempo": 1.08
+ },
+ "g2": {
+  "role": "kids",
+  "dur": 1.61,
+  "tempo": 1.08
+ },
+ "g3": {
+  "role": "golu",
+  "dur": 1.17,
+  "tempo": 1.08
+ },
+ "g4": {
+  "role": "mithu",
+  "dur": 1.8,
+  "tempo": 1.15
+ }
+}
