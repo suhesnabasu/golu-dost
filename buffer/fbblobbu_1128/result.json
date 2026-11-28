@@ -1,0 +1,24 @@
+{
+ "job": "fbblobbu_1128",
+ "results": [
+  {
+   "channelId": "6b03d8178541f09ecb718f64",
+   "dueAt": "2026-12-02T08:30:00.000Z",
+   "video_url": "https://raw.githubusercontent.com/suhesnabasu/golu-dost/media/media/fbblobbu_1128_1NlHVmoc.mp4",
+   "out": [
+    200,
+    {
+     "data": {
+      "createPost": {
+       "post": {
+        "id": "6b0af9194ebef2b6d4e88d51",
+        "dueAt": "2026-12-02T08:30:00.000Z",
+        "status": "scheduled"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
