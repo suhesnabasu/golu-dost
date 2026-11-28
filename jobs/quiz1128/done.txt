@@ -1,0 +1,14 @@
+ok qi
+ok q0
+ok a0_a
+ok a0_b
+ok q1
+ok a1_a
+ok a1_b
+ok q2
+ok a2_a
+ok a2_b
+ok q3
+ok a3_a
+ok a3_b
+ok qo
